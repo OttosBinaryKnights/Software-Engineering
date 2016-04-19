@@ -30,7 +30,10 @@
     * Fortschritt besser kommuniziert
     * Risikoanalyse frühe Erkennung von Risiko
 * **Unified Process**
-
+  * kurze Iterationsdauer
+  * jede Iteration endet mit einem volständigen System
+  * Inkrementell
+  * UP akzeptiert, dass nicht das gesamte Vorgehen initial geplant werden kann
 ---
 ## 2. PROTOTYPING
 **Erklären Sie die Begriffe “Vertikaler Prototyp” und “Horizontaler Prototyp”. Erläutern Sie, wann welche Art eingesetzt wird und warum. Welche Implementierung würden Sie für die Erstellung eines Online-Shops wählen? Begründen Sie Ihre Wahl.**
