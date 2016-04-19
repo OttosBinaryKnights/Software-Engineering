@@ -103,31 +103,31 @@
     * falsches Verständnis des Problems/der Anforderungen
   * Lösung:  
     * Zusammen Problemlösung erarbeiten
-		* Pflichtenheft anfertigen und zurück an den Kunden
-		* Meetings für Rücksprache
+	* Pflichtenheft anfertigen und zurück an den Kunden
+	* Meetings für Rücksprache
 
 * How the engineer designed it:
   * Problem:
     * benutzerunfreundliches Design
     * Design entspricht nicht dem Kundenvorstellungen
     * Umsetzung der Lösung anhand der Informationen des Projektleiters
-	* Lösung:  
+  * Lösung:  
     * Einfaches Design
     * Designvorstellungen
-		* Rücksprache
+	* Rücksprache
 
 * How the programmer wrote it:
   * Problem:
     * Code funktioniert nicht, macht nicht das was er machen soll
-		* Problem nicht verstanden
-	* Lösung:  
+	* Problem nicht verstanden
+  * Lösung:  
     * Rücksprache mit Projektleiter und Kunde
-		* Vorstellung von Teilfunktionen
+	* Vorstellung von Teilfunktionen
 
 * How the sales executive described it:
   * Problem:
     * Übertreibung der Funktion/Produkte beim Verkauf
-	* Lösung:  
+  * Lösung:  
     * Realitätsnahe Beschreibung der Produkte
 
 * How the project was documented:
@@ -140,25 +140,25 @@
 * What operations installed
   * Problem:
     * Fehlende Funktionen
-	* Lösung:  
+  * Lösung:  
     * Testen ob alle geforderten Funktionen vorhanden sind
 
 * How the customer was billed:
   * Problem:
     * Produkt/Software zu teuer im Vergleich der gegebenen Funktion
-	* Lösung:  
+  * Lösung:  
     * Transparente Kostenentwicklung (Dokumentation)
 
 * How the helpdesk supported it:
   * Problem:
     * Produkt Auslieferung ohne/mit schlechten Support/Wartung
-	* Lösung:  
+  * Lösung:  
     * Support in der Entwicklung mit aufbauen
 
 * What the customer really needed:
   * Problem:
     * Abweichung der benötigten Funktionen der Produkte von der was ausgeliefert wurde
-	* Lösung:  
-    * Wenn alle vorherigen Probleme gelöst und berücksichtigt werden, bekommt der Kunde das was er braucht
+  * Lösung:  
+     * Wenn alle vorherigen Probleme gelöst und berücksichtigt werden, bekommt der Kunde das was er braucht
 
 ---
