@@ -22,6 +22,13 @@
     * Fehler im Feinentwurf im Modultest
   * Aber: V-Modell auch kompatibel mit anderen Prozessen: V-Modell XT (neue Versionen)
 * **Spiralmodell**
+  * Versucht mit größten Risiko umzugehen
+  * Iterativ verfeinerung
+  * Verbesserung des Wasserfallmodells
+    * Gleiche Aufgabe wie Wasserfallmodell
+    * Jede Aufgabe durch Prototypen abgeschlossen
+    * Fortschritt besser kommuniziert
+    * Risikoanalyse frühe Erkennung von Risiko
 * **Unified Process**
 
 ---
@@ -56,12 +63,102 @@
 ## 3. SOFTWAREENTWICKLUNGSMODELLE
 **Sie sind Projekt-Manager für ein Software Projekt. Für die folgenden Aufgaben, welche der klassischen Entwicklungsmethoden würden Sie verwenden? Begründen Sie jeweils Ihre Entscheidung!**
  **a) Realisierung eines Tot-Mann-Schalters für den Zugfahrer. (Ein Tot-Mann-Schalter ist eine Sicherungsanlage, die jede Minute betätigt werden muss. Anderenfalls wird eine Notbremsung ausgeführt.)**
+ * V-Modell nach EN 50128 empfohlen
+
  **b) Sie arbeiten in einem kleinen Team mit Ihnen und zwei Mitarbeitern an einem neuen Sortierverfahren, dass in O(n) eine Liste sortieren kann.**
+ * kein Projektmodell nötig
+
  **c) Ihr Kunde möchte von ihnen eine Website für sein Unternehmen entwickelt haben.**
+ * Spiralmodell
 
 ---
 ## 4. BEDEUTUNG REQUIREMENTS ENGINEERING
 **Welche Rolle spielt die Anforderungsanalyse in der Softwaretechnik? Welche potentiellen Gefahren gibt es, wenn man ohne Anforderungsanalyse einfach schon mal entwickelt? Nehmen Sie zur Beantwortung der Frage zu jedem Bild Stellung und beschreiben Sie Probleme und mögliche Lösungen.**
 ![Abbildung 1](Abbildung01.jpg)
+
+* Anforderung: - Bedingung oder Eigenschaft, die ein System benötigt
+  * um ein Problem zu lösen
+  * um ein Ziel zu erreichen
+  * um einem Vertrag, Standard oder ähnlichem zu genügen
+* Gefahren:
+  * Projekt scheitert
+  * Projektkosten übersteigen das Budget
+  * Unnutze Arbeit / Entwicklung von vorne beginnen
+  * kein zielorientiertes Lösen des Problems
+  * Dokumentation nicht vollständig/ fehlt
+  * nicht funktionierende/r Code/Software
+
+* How the customer explained it:
+  * Problem:
+    * zu viel Details/Informationen
+    * zu komplex Problembeschreibung
+    * dem Kunden ist nicht ganz bewusst was genau er braucht/will
+    * Kunde hat technischen oder veraltet Hintergrund
+  * Lösung:
+    * fortlaufende Meetings über Phase der Anforderungsanalyse
+    * Ausarbeitung der Anforderungen oder Lösungsansatz mit dem Projektleiter zusammen
+
+* How the project leader understood it:
+  * Problem:
+    * falsches Verständnis des Problems/der Anforderungen
+  * Lösung:  
+    * Zusammen Problemlösung erarbeiten
+		* Pflichtenheft anfertigen und zurück an den Kunden
+		* Meetings für Rücksprache
+
+* How the engineer designed it:
+  * Problem:
+    * benutzerunfreundliches Design
+    * Design entspricht nicht dem Kundenvorstellungen
+    * Umsetzung der Lösung anhand der Informationen des Projektleiters
+	* Lösung:  
+    * Einfaches Design
+    * Designvorstellungen
+		* Rücksprache
+
+* How the programmer wrote it:
+  * Problem:
+    * Code funktioniert nicht, macht nicht das was er machen soll
+		* Problem nicht verstanden
+	* Lösung:  
+    * Rücksprache mit Projektleiter und Kunde
+		* Vorstellung von Teilfunktionen
+
+* How the sales executive described it:
+  * Problem:
+    * Übertreibung der Funktion/Produkte beim Verkauf
+	* Lösung:  
+    * Realitätsnahe Beschreibung der Produkte
+
+* How the project was documented:
+  * Problem:
+    * Keine Dokumentation
+  * Lösung:  
+    * Dokumentation zur Arbeit
+    * Vereinbarungen anfertigen
+
+* What operations installed
+  * Problem:
+    * Fehlende Funktionen
+	* Lösung:  
+    * Testen ob alle geforderten Funktionen vorhanden sind
+
+* How the customer was billed:
+  * Problem:
+    * Produkt/Software zu teuer im Vergleich der gegebenen Funktion
+	* Lösung:  
+    * Transparente Kostenentwicklung (Dokumentation)
+
+* How the helpdesk supported it:
+  * Problem:
+    * Produkt Auslieferung ohne/mit schlechten Support/Wartung
+	* Lösung:  
+    * Support in der Entwicklung mit aufbauen
+
+* What the customer really needed:
+  * Problem:
+    * Abweichung der benötigten Funktionen der Produkte von der was ausgeliefert wurde
+	* Lösung:  
+    * Wenn alle vorherigen Probleme gelöst und berücksichtigt werden, bekommt der Kunde das was er braucht
 
 ---
