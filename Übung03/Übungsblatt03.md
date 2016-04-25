@@ -2,6 +2,11 @@
 ## 1. REQUIREMENTS ENGINEERING
 **Was ist Requirements Engineering? Erläutern Sie die 3 Ziele des Requirement Engineerings.**
 
+* 3 Ziele:
+  * Relevante Anforderungen bekannt und verstanden sind
+  * Stakeholder ausreichende Übereinkunft über bekannte Anforderungen erreichen
+  * Anforderungen entsprechend der Dokumentations- und Spezifikationsvorschriften erfasst sind
+
 **Was sind Anforderungen?**
 
 **Welche Rolle spielt die Nachverfolgbarkeit?**

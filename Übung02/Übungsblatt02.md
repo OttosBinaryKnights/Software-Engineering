@@ -11,6 +11,9 @@
   * Unterschätzt die Bedeutung von Veränderung
   * Iteriertes Wasserfallmodell als Konsequenz
     * Integriert Rückkopplungsschleifen
+
+ ![Wasserfallmodell](Wasserfallmodell.jpg)
+
 * **V-Modell**
   * Gefahr von Mißverständnissen
     * (ausführbarer) Code erst am Ende des Projekts
@@ -21,6 +24,9 @@
     * Fehler im Entwurf im Integrationstest
     * Fehler im Feinentwurf im Modultest
   * Aber: V-Modell auch kompatibel mit anderen Prozessen: V-Modell XT (neue Versionen)
+
+ ![V-Modell](V_Modell.jpg)
+
 * **Spiralmodell**
   * Versucht mit größten Risiko umzugehen
   * Iterativ verfeinerung
@@ -29,11 +35,18 @@
     * Jede Aufgabe durch Prototypen abgeschlossen
     * Fortschritt besser kommuniziert
     * Risikoanalyse frühe Erkennung von Risiko
+
+![Spiralmodell](Spiralmodell.JPG)
+
 * **Unified Process**
   * kurze Iterationsdauer
   * jede Iteration endet mit einem volständigen System
   * Inkrementell
   * UP akzeptiert, dass nicht das gesamte Vorgehen initial geplant werden kann
+
+ ![Unified Process](up01.jpg)
+
+ ![Unified Process](up02.jpg)
 
 ---
 ## 2. PROTOTYPING
