@@ -17,6 +17,35 @@
 ---
 ## 2. ANFORDERUNGEN
 **Anforderungen lassen sich in verschiedene Klassen aufteilen. Beschreiben Sie die Klassen und geben Sie für jede Klasse zwei Beispiele aus dem Fußball Tippspiel an. Laden Sie sich dazu die Beschreibung aus dem Downloadbereich herunter.**
+* Funktionale Anforderungen
+  * Beschreibung einer Funktionalität, die vom System zu erfüllen ist mit
+    * Aktionen und Interaktionen des Systems
+    * Eingaben
+    * Ausgaben
+    * Einschränkungen
+  * Beispiele:
+    * Kunden können das Ergebnis des nächsten Spiels ab 24 Stunden vor Spielbeginn bis zum Spiel vorhersagen
+    * Während unsere Kunden das Spiel live auf unserer Webseite ansehen können, wird Ihnen ständig angezeigt, wie wahrscheinlich ihr Tipp sein wird
+* Qualitätsanforderungen
+  * Beschreibung von gewünschten Qualitätsmerkmalen an das System, eine Komponente oder eine Funktion
+  * Beispiele:
+    * Übersicht, wie viele unserer Kunden das Tipp-Spiel benutzen und ob es mehr Kunden auf unsere Seite lockt als vorher
+    * Übersicht, wie viele Personen aufgrund des Rabattes etwas bestellt haben
+* Randbedingungen
+  * Einschränkungen, von denen das System oder dessen Entwicklung betroffen ist
+    * Versicherungsbedingungen
+    * Gesetzliche Vorgaben
+    * Normen und Standards, die erfüllt werden müssen (ISO, DIN, ...)
+    * Einflüsse der Einsatzumgebung
+    * Aufwandsbeschränkungen (Kosten, Personal, ...)
+    * Zertifizierungen
+    * ...
+  * Beispiele:
+    * die Mehr-Nutzer sollten in einem guten Verhältnis zu den Serverkosten stehen, die wir für das Tipp-Spiel benötigen
+* Nicht-funktionale Anforderungen
+  * Großer Spielraum für Interpretationen
+  * Hinterfragen und spezifizieren ist notwendig
+  * Bestimmen von funktionalen und Qualitätsanforderungen, um objektivere und überprüfbare Anforderungen zu schaffen
 
 ---
 ## 3. STAKEHOLDER
@@ -27,6 +56,9 @@
 * Wichtigste Quelle für Anforderungen
 
 **Identifizieren Sie 2 Beispiele für das Fußball-Tippspiel. Laden Sie sich dazu die Beschreibung aus dem Downloadbereich herunter. Wie kann ein Stakeholder in die Anforderungsgewinnung einbezogen werden?**
+* Stakeholder:
+  * Betreiber für Toma-Gotchi-Pflanzen
+  * Nutzer
 
 **Auf welche Probleme können Sie dabei stoßen?**
 * Unterschiedliche Verwendung von Begriffen
