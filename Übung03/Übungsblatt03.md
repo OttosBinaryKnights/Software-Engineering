@@ -1,11 +1,15 @@
 # Übungsblatt 03
 ## 1. REQUIREMENTS ENGINEERING
 **Was ist Requirements Engineering? Erläutern Sie die 3 Ziele des Requirement Engineerings.**
+* Requirements Engineering ist ein Prozess der Bestandteil jedes Entwicklungsprozesses ist.
 
 * 3 Ziele:
-  * Relevante Anforderungen bekannt und verstanden sind
-  * Stakeholder ausreichende Übereinkunft über bekannte Anforderungen erreichen
-  * Anforderungen entsprechend der Dokumentations- und Spezifikationsvorschriften erfasst sind
+  * Relevante Anforderungen sind bekannt und verstanden:
+    * Nur wer weiß, was der Kunde will, kann das Produkt so entwickeln, wie dieser es haben will.
+  * Stakeholder ausreichende Übereinkunft über bekannte Anforderungen erreichen:
+    * Führt später zu weniger Problemen, da Stakeholder gleich mit eingebunden sind.
+  * Anforderungen entsprechend der Dokumentations- und Spezifikationsvorschriften erfasst sind:
+    * Ermöglicht einen leichteren Umgang mit dem Kunden.  
 
 **Was sind Anforderungen?**
 * Notwendige Bedingung oder Eigenschaft
