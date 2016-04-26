@@ -8,11 +8,34 @@
   * Anforderungen entsprechend der Dokumentations- und Spezifikationsvorschriften erfasst sind
 
 **Was sind Anforderungen?**
+* Notwendige Bedingung oder Eigenschaft
+  * eines Systems oder einer Person, um ein Ziel zu erreichen oder Problem zu lösen
+  * eines Systems oder einer Komponente, um einen Standard, Vertrag oder Ähnliches zu erfüllen
+* Nach IEEE des weiteren dokumentierte Anforderungen
+* Hier: Anforderungsartefakt nach [Pohl 2008]
 * bilden die Grundlage für den Vertrag zwischen Kunden und Entwickler
 
 **Welche Rolle spielt die Nachverfolgbarkeit?**
+* bildet den Nachweis über die Erfüllung aller Anforderungen
+* Vertrag ist erst erfüllt, wenn alle Requirements umgesetzt sind
 
 **Wie kann sie erreicht werden?**
+* durch eine Liste von Requirements
+  * wird aus dem Anforderungsdokument des Kunden erstellt
+  * jeder Satz bekommt eine ID
+  * Sätze mit mehreren Requirements werden aufgelöst in mehrere Unterrequirements
+* Einfache Tabellenstruktur
+  * Excel
+  * Manuelles Tracing, keine Links
+* Einbettung in IDE
+  * PlugIn für Eclipse: ProR
+  * Einfache Objekt-orientierte Struktur • Manuelles Tracing
+  * Links
+* Proprietäre Software
+  * IBM Rational Doors
+  * Multi-User (simultanes Arbeiten)
+  * Schnittstellen zu UML-Tools und IDEs (halb- automatisches Tracing)
+  * Links
 
 ---
 ## 2. ANFORDERUNGEN
