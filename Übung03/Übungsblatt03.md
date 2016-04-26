@@ -29,6 +29,23 @@
 **Identifizieren Sie 2 Beispiele für das Fußball-Tippspiel. Laden Sie sich dazu die Beschreibung aus dem Downloadbereich herunter. Wie kann ein Stakeholder in die Anforderungsgewinnung einbezogen werden?**
 
 **Auf welche Probleme können Sie dabei stoßen?**
+* Unterschiedliche Verwendung von Begriffen
+* Stakeholder sind nicht ehrlich
+* Stakeholder können ihre Wünsche nicht ausdrücken oder haben keine
+* Widerstand der Stakeholder
+* Ziel-/Anforderungskonflikte
+* Fokussierung auf eine bestimmte Lösung
+* Anforderungen ändern sich
+* Zeitmangel
+* Verfügbarkeit
+* Falsche Erwartungen
+* Eisberg-Metapher
+  * Viele Zusatzinformationen sind verdeckt:
+    * Selbstverständliches
+    * Gewohnheiten
+    * Erfahrungen
+    * Vergessenes
+    * ...
 
 **Erläutern Sie die Einteilung von Stakeholdern nach Rupp.**
 
