@@ -2,6 +2,117 @@
 ## 1. VOLERE TEMPLATE
 **Templates helfen, wichtige Aspekte zu identifizieren und sicherzustellen, dass keine Aspekte vergessen wurden. Zur Identifikation von Requirements kann hierzu eine Formalisierung des Projektes hilfreich sein. Laden Sie sich deshalb aus dem Downloadbereich das Volere Requirements Specification Template herunter. Füllen Sie die Bereiche 1-6 („Purpose of the project“ bis „Relevant Facts“) für das Fußballtippspiel aus.**
 
+### 1. The Purpose of the Project
+#### 1a. The User Business or Background of the Project Effort
+* Content
+* Motivation
+* Considerations
+
+#### 1b. Goals of the Project
+* Content
+* Motivation
+* Examples
+* Measurement
+
+### 2. The Client, the Customer, and Other Stakeholders
+#### 2a. The Client
+* Content
+* Motivation
+* Considerations
+
+#### 2b. The Customer
+* Content
+* Motivation
+
+#### 2c. Other Stakeholders
+* Content
+* Motivation
+
+### 3. Users of the Product
+#### 3a. The Hands-On Users of the Product
+* Content
+* Motivation
+* Examples
+
+#### 3b. Priorities Assigned to Users
+* Content
+* Motivation
+
+#### 3c. User Participation
+* Content
+* Motivation
+
+#### 3d. Maintenance Users and Service Technicians
+* Content
+* Motivation
+
+### 4. Mandated Constraints
+#### 4a. Solution Constraints
+* Content
+* Motivation
+* Examples
+* Considerations
+
+#### 4b. Implementation Environment of the Current System
+* Content
+* Motivation
+* Examples
+* Considerations
+
+#### 4c. Partner or Collaborative Applications
+* Content
+* Motivation
+* Examples
+* Considerations
+
+#### 4d. Off-the-Shelf Software
+* Content
+* Motivation
+* Examples
+* Considerations
+
+#### 4e. Anticipated Workplace Environment
+* Content
+* Motivation
+* Examples
+* Considerations
+
+#### 4f. Schedule Constraints
+* Content
+* Motivation
+* Examples
+* Considerations
+
+#### 4g. Budget Constraints
+* Content
+* Motivation
+* Considerations
+
+### 5. Naming Conventions and Definitions
+#### 5a. Definitions of All Terms, Including Acronyms, Used in the Project
+* Content
+* Motivation
+* Examples
+* Considerations
+
+#### 5b. Data Dictionary for Any Included Models
+* Content
+* Motivation
+* Examples
+* Considerations
+
+### 6. Relevant Facts and Assumptions
+#### 6a. Facts
+* Content
+* Motivation
+* Examples
+
+#### 6b. Assumptions
+* Content
+* Motivation
+* Examples
+* Considerations
+
 ---
 ## 2. BESCHREIBUNG VON ANFORDERUNGEN
 **Identifizieren Sie jeweils mindestens 5 funktionale und nicht-funktionale Anforderungen (welche noch nicht in Aufgabe 1 ermittelt wurden) für das Fußballtippspiel.**
