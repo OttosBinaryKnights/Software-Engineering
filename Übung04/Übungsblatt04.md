@@ -123,23 +123,20 @@
 ## 3. ANFORDERUNGSDOKUMENTE NACH DIN 69905
 **Lasten- und Pflichtenhefte stellen wichtigste Dokumente nach DIN 69905 dar. Was macht das jeweilige Dokument aus?**
 
-Lastenheft:
-Alle Forderungen an Lieferung und Leistung des Auftragnehmers
+* Lastenheft:
+  * Alle Forderungen an Lieferung und Leistung des Auftragnehmers
+  * Meist vom Auftraggeber erstellt
+  * Weitere Forderungen:
+    * Der Anwender an das System
+    * Randbedingungen an System und Entwicklung
 
-Meist vom Auftraggeber erstellt
-
-Weitere Forderungen:
-Der Anwender an das System
-Randbedingungen an System und Entwicklung
-
-Pflichtenheft:
-Beschreibt Realisierungsvorgaben des Auftragnehmers und Realisierung des Lastenhefts
-
-Lastenheft ist oft selbst Bestandteil
+* Pflichtenheft:
+  * Beschreibt Realisierungsvorgaben des Auftragnehmers und Realisierung des Lastenhefts
+  * Lastenheft ist oft selbst Bestandteil
 
 **Worin bestehen die Unterschiede?**
 
-Pflichtenheft ist detaillierter als und Ergänzung zum Lastenheft
+* Pflichtenheft ist detaillierter als und Ergänzung zum Lastenheft
 
 ---
 ## 4. ZIELE
@@ -151,32 +148,32 @@ Pflichtenheft ist detaillierter als und Ergänzung zum Lastenheft
 ## 5. KONFLIKTAUFLÖSUNG
 **Beschreiben Sie das Konflikteskalationsmodell nach GLASL. Diskutieren Sie Möglichkeiten der Konfliktauflösung für die erste Ebene des Konflikteskalationsmodells.**
 
-1.Ebene: Win-Win   Versuch der Lösung zur Zufriedenheit beider  Kooperation > Konkurrenz
+* 1.Ebene: Win-Win   
+  * Versuch der Lösung zur Zufriedenheit beider  Kooperation > Konkurrenz
+* 2.Ebene: Win-Lose  
+  * Durchsetzung des eigenen Standpunktes        Kooperation ≤≥ Konkurrenz
+* 3.Ebene: Lose-Lose
+  * Gegner mehr schaden, als man selbst erhält   Kooperation < Konkurrenz
 
-2.Ebene: Win-Lose  Durchsetzung des eigenen Standpunktes        Kooperation ≤≥ Konkurrenz
-
-3.Ebene: Lose-Lose Gegner mehr schaden, als man selbst erhält   Kooperation < Konkurrenz
-
-Stufen in Ebene 1:
-Verhärtung
+* Stufen in Ebene 1:
+  * Verhärtung
 
 Debatte,Polemik
 
 Taten statt Worte
 
-Möglichkeiten der Konfliktauflösung:
-
-Verhandlung:
+* Möglichkeiten der Konfliktauflösung:
+  * Verhandlung:
 Auflösung durch Austausch von Argumenten, Meinungen und Informationen
 
-Entscheidung:
-Entscheidungsträger (übergeordnete Instanz, Auftraggeber) 
+  * Entscheidung:
+Entscheidungsträger (übergeordnete Instanz, Auftraggeber)
 fällt Entscheidung zugunsten eines der beiden Standpunkte
 
-Kreative Lösung:
+  * Kreative Lösung:
 Verwerfen der bisherigen Standpunkte und entwickeln eines unabhängigen neuen
 
 **Ab welcher Stufe wäre Ihrer Meinung nach professionelle Hilfe spätestens notwendig?**
 
-Ab dem Gesichtsverlust und spätestens bei der Drohstrategie sollte man sich professionelle Hilfe holen.
-Später ist es kaum noch aufhaltbar.
+* Ab dem Gesichtsverlust und spätestens bei der Drohstrategie sollte man sich professionelle Hilfe holen.
+* Später ist es kaum noch aufhaltbar.
