@@ -142,6 +142,13 @@
 ## 4. ZIELE
 **Identifizieren Sie mindestens 8 Ziele und Unterziele im Fußballtippspiel.**
 
+* Tolles Plugin für online Shop
+* passt gut in das bestehende System
+* Kunden und deren Aufmerksamkeit möglichst lange binden
+* Kunden können ohne Einschränkungen nebenbei im Shop einkaufen ohne dabei wichtige Spielzüge zu verpassen
+
+
+
 **Gestalten Sie aus denen von Ihnen ermittelten Zielen einen Und-Oder-Graph. Berücksichtigen Sie auch Konflikte und Abhängigkeiten.**
 
 ---
@@ -157,17 +164,15 @@
 
 * Stufen in Ebene 1:
   * Verhärtung
-
-Debatte,Polemik
-
-Taten statt Worte
+  * Debatte,Polemik
+  * Taten statt Worte
 
 * Möglichkeiten der Konfliktauflösung:
   * Verhandlung:
-Auflösung durch Austausch von Argumenten, Meinungen und Informationen
+  * Auflösung durch Austausch von Argumenten, Meinungen und Informationen
 
   * Entscheidung:
-Entscheidungsträger (übergeordnete Instanz, Auftraggeber)
+  * Entscheidungsträger (übergeordnete Instanz, Auftraggeber)
 fällt Entscheidung zugunsten eines der beiden Standpunkte
 
   * Kreative Lösung:
