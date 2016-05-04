@@ -13,9 +13,48 @@
 **Informieren Sie sich über das CoCoMo II Verfahren.**
 * **Was sind die Unterschiede zu CoCoMo 81?**
 
+* Cocomo81:
+* *  allgemeine (einmalige) Ermittlung der Kosten
+ 
+* CocomoII:
+
+* *  3 Modelle (Application Composition, Early Design, Post-Architecture)
+* *  neue Cost-Driver/Formeln
+* *  neue IDE
+* *  berücksichtigt OOP
+
+
 * **Was sind Submodelle und wozu werden sie verwendet?**
 
+* Was sind Submodelle:
+
+
+* Application Composition Modell:
+
+* *  Früheste Phase der Schätzung (Prototypisierung)
+* *  Nutzt "Objekt-Points" als Eingabe
+
+* Early Design Modell:
+
+* *  Abschätzung des Aufwands vor Fertigstellung der Systemarchitektur
+* *  Unadjusted Function Points oder KSLOC als Eingabe
+
+* Post-Architecture Modell:
+
+* *  wird verwendet nach Entwicklung der gesamten Systemarchitektur
+* *  Vor und während der Implementation
+
 * **Was sind die Vor- und Nachteile des Verfahrens?**
+
+* Cons:
+
+* *  hoher Aufwand für die Ermittlung der Koeffizienten
+* *  Für kleinere Unternehmen mathematisch nicht aussagekräftigt
+
+* Pros:
+
+* *  Simpel
+* *  sehr fundierte Informationen sind einfach verfügbar
 
 ---
 ## 4. AUFWANDSSCHÄTZUNG
