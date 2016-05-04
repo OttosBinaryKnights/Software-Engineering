@@ -142,12 +142,14 @@
 ## 4. ZIELE
 **Identifizieren Sie mindestens 8 Ziele und Unterziele im Fußballtippspiel.**
 
+* Kunden kaufen auch während der Fußball-EM dort ein
 * Tolles Plugin für online Shop
 * passt gut in das bestehende System
 * Kunden und deren Aufmerksamkeit möglichst lange binden
-* Kunden können ohne Einschränkungen nebenbei im Shop einkaufen ohne dabei wichtige Spielzüge zu verpassen
-
-
+* Kunden können ohne Einschränkungen nebenbei im Shop einkaufen
+* Live Anzeigung der Tipp Wahrscheinlichkeit
+* Übersicht über wirkliche Nutzer
+* Bei richtigem Tipp Bestellrabatt
 
 **Gestalten Sie aus denen von Ihnen ermittelten Zielen einen Und-Oder-Graph. Berücksichtigen Sie auch Konflikte und Abhängigkeiten.**
 
