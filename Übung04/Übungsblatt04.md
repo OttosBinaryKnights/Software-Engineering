@@ -153,6 +153,8 @@
 
 **Gestalten Sie aus denen von Ihnen ermittelten Zielen einen Und-Oder-Graph. Berücksichtigen Sie auch Konflikte und Abhängigkeiten.**
 
+![Bild](IMG_0822.jpg)
+
 ---
 ## 5. KONFLIKTAUFLÖSUNG
 **Beschreiben Sie das Konflikteskalationsmodell nach GLASL. Diskutieren Sie Möglichkeiten der Konfliktauflösung für die erste Ebene des Konflikteskalationsmodells.**
