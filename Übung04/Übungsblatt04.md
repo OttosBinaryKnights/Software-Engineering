@@ -116,6 +116,13 @@
 ---
 ## 2. BESCHREIBUNG VON ANFORDERUNGEN
 **Identifizieren Sie jeweils mindestens 5 funktionale und nicht-funktionale Anforderungen (welche noch nicht in Aufgabe 1 ermittelt wurden) für das Fußballtippspiel.**
+* funktional:
+  * Livestream
+  * Tippfunktion
+  * Tippwahrscheinlichkeit anzeigen
+* nicht-funktional
+  * Bestellrabatt bestimmen
+  * Verlosung für die Gewinner des Tippspiels
 
 **Erklären Sie anhand Ihrer Beispiele den Unterschied zwischen funktionalen und nicht-funktionalen Anforderungen. Beschreiben Sie diese mit der Volere Snow Card. Sind Ihre Anforderungen gute Anforderungen?**
 
@@ -127,7 +134,7 @@
   * Alle Forderungen an Lieferung und Leistung des Auftragnehmers
   * Meist vom Auftraggeber erstellt
   * Weitere Forderungen:
-    * Der Anwender an das System
+    * die der Anwender an das System hat
     * Randbedingungen an System und Entwicklung
 
 * Pflichtenheft:
@@ -136,7 +143,7 @@
 
 **Worin bestehen die Unterschiede?**
 
-* Pflichtenheft ist detaillierter als und Ergänzung zum Lastenheft
+* Pflichtenheft ist detaillierter als das Lastenheft und dient als Ergänzung zum Lastenheft
 
 ---
 ## 4. ZIELE
