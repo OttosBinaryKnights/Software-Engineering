@@ -148,7 +148,7 @@
 * Kunden und deren Aufmerksamkeit möglichst lange binden
 * Kunden können ohne Einschränkungen nebenbei im Shop einkaufen
 * Live Anzeigung der Tipp Wahrscheinlichkeit
-* Übersicht über wirkliche Nutzer
+* Übersicht über dauerhafte Nutzer
 * Bei richtigem Tipp Bestellrabatt
 
 **Gestalten Sie aus denen von Ihnen ermittelten Zielen einen Und-Oder-Graph. Berücksichtigen Sie auch Konflikte und Abhängigkeiten.**
