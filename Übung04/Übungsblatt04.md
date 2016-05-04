@@ -126,6 +126,18 @@
 
 **Erklären Sie anhand Ihrer Beispiele den Unterschied zwischen funktionalen und nicht-funktionalen Anforderungen. Beschreiben Sie diese mit der Volere Snow Card. Sind Ihre Anforderungen gute Anforderungen?**
 
+| Volere Snow Card      |  |  |
+| --------------------- | ---------------- | ---- |
+| Requirement           | Requirement Type | Event/use case |
+| Description           |
+| Rationale             |
+| Originator            |
+| Fit Criterion         |
+| Customer Satisfaction | Costemer Dissatisfaction |
+| Priority              | Conflicts |
+| Supporting Materials  |
+| History               |
+
 ---
 ## 3. ANFORDERUNGSDOKUMENTE NACH DIN 69905
 **Lasten- und Pflichtenhefte stellen wichtigste Dokumente nach DIN 69905 dar. Was macht das jeweilige Dokument aus?**
@@ -149,6 +161,7 @@
 ## 4. ZIELE
 **Identifizieren Sie mindestens 8 Ziele und Unterziele im Fußballtippspiel.**
 
+* Entwicklung eines Plugin eines bestehenden Spiels
 * Kunden kaufen auch während der Fußball-EM dort ein
 * Tolles Plugin für online Shop
 * passt gut in das bestehende System
@@ -178,16 +191,21 @@
   * Debatte,Polemik
   * Taten statt Worte
 
+![Abbildung 1](Abb01.jpg)
+
 * Möglichkeiten der Konfliktauflösung:
   * Verhandlung:
   * Auflösung durch Austausch von Argumenten, Meinungen und Informationen
 
   * Entscheidung:
-  * Entscheidungsträger (übergeordnete Instanz, Auftraggeber)
+    * Entscheidungsträger (übergeordnete Instanz, Auftraggeber)
 fällt Entscheidung zugunsten eines der beiden Standpunkte
 
   * Kreative Lösung:
 Verwerfen der bisherigen Standpunkte und entwickeln eines unabhängigen neuen
+
+![Abbildung 2](Abb02.jpg)
+
 
 **Ab welcher Stufe wäre Ihrer Meinung nach professionelle Hilfe spätestens notwendig?**
 
