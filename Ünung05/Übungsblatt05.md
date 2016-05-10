@@ -2,6 +2,8 @@
 ## 1. ERMITTLUNG VON USE-CASES
 **Erstellen Sie ein Use-Case Diagramm für das Fußballtippspiel. Identifizieren sie mindestens drei Stakeholders. Erstellen Sie mindestens 10 Use-Cases für diese Stakeholder. Verwenden Sie normale Assoziationen, <<extends>> sowie <<includes>> jeweils mindestens einmal.**
 
+![Use-Case-Diagramm](UseCase.jpeg)
+
 **Was ist der Unterschied zwischen den Assoziationen?**
 Verbindungslinien in UML-Diagrammen werden Assoziationen genannt. Sie stellen Zusammenhänge zwischen Elementen an den Enden von Assoziationen dar.
 
@@ -19,6 +21,9 @@ Im Use-Case-Diagramm gibt es zwei Arten von Verbindungslinien:
 ---
 ## 2. COCKBURN TEMPLATE
 **Stellen Sie mindestens 3 Use-Cases aus Aufgabe 1 mithilfe des Cockburn Templates dar. Erstellen Sie dabei sowohl Haupt- als auch Nebenerfolgsszenarios.**
+
+[Cockburn als PDF](Cockburn.pdf)
+[Cockburn mit Open Office](Cockburn.ods)
 
 ---
 ## 3. COCOMO II

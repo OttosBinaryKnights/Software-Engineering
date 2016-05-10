@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_b8gYEBaDEeafQMThchk8sQ" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_gtv5gBaDEeafQMThchk8sQ" name="Fussballtippspiel">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_x8XsMBaEEeafQMThchk8sQ" name="Create_Account"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_48_PQBaEEeafQMThchk8sQ" name="Login_Account">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_6EBBYBaHEeafQMThchk8sQ" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_GmntsBaFEeafQMThchk8sQ" addition="_x8XsMBaEEeafQMThchk8sQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fpacwBaFEeafQMThchk8sQ" name="Place_Advertising"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tdDLwBaFEeafQMThchk8sQ" name="Include_Updates"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7NVPUBaGEeafQMThchk8sQ" name="Show_Livestream">
+      <extend xmi:type="uml:Extend" xmi:id="_6DsRQBaHEeafQMThchk8sQ" extendedCase="_48_PQBaEEeafQMThchk8sQ" extensionLocation="_6EBBYBaHEeafQMThchk8sQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_F8SsYBaHEeafQMThchk8sQ" name="Place_Prediction">
+      <extend xmi:type="uml:Extend" xmi:id="_98ZoMBaHEeafQMThchk8sQ" extendedCase="_48_PQBaEEeafQMThchk8sQ" extensionLocation="_6EBBYBaHEeafQMThchk8sQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Torj4BaHEeafQMThchk8sQ" name="Book_Order">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_47Q0IBaIEeafQMThchk8sQ" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_dplLoBaIEeafQMThchk8sQ" addition="_48_PQBaEEeafQMThchk8sQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jbZOsBaHEeafQMThchk8sQ" name="Raffle_Prize"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xcrisBaIEeafQMThchk8sQ" name="Give_Out_Discount">
+      <extend xmi:type="uml:Extend" xmi:id="_47GcEBaIEeafQMThchk8sQ" extendedCase="_Torj4BaHEeafQMThchk8sQ" extensionLocation="_47Q0IBaIEeafQMThchk8sQ"/>
+      <include xmi:type="uml:Include" xmi:id="_9AUlABaIEeafQMThchk8sQ" addition="_F8SsYBaHEeafQMThchk8sQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nLOSQBaOEeafQMThchk8sQ" name="Delete_Profile">
+      <include xmi:type="uml:Include" xmi:id="_3rzIoBaOEeafQMThchk8sQ" addition="_48_PQBaEEeafQMThchk8sQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lasJwBaDEeafQMThchk8sQ" name="Client"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_pMcusBaEEeafQMThchk8sQ" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_sIGAcBaEEeafQMThchk8sQ" name="Developer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8Xb84BaEEeafQMThchk8sQ" name="A_user_login_account" memberEnd="_8Xb84RaEEeafQMThchk8sQ _8Xb85BaEEeafQMThchk8sQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8Xb84RaEEeafQMThchk8sQ" name="user" type="_pMcusBaEEeafQMThchk8sQ" association="_8Xb84BaEEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8Xb84haEEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8Xb84xaEEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8Xb85BaEEeafQMThchk8sQ" name="login_account" type="_48_PQBaEEeafQMThchk8sQ" association="_8Xb84BaEEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8Xb85RaEEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8Xb85haEEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__Cpl8BaEEeafQMThchk8sQ" name="A_user_create_account" memberEnd="__Cpl8RaEEeafQMThchk8sQ __Cpl9BaEEeafQMThchk8sQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="__Cpl8RaEEeafQMThchk8sQ" name="user" type="_pMcusBaEEeafQMThchk8sQ" association="__Cpl8BaEEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__Cpl8haEEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__Cpl8xaEEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__Cpl9BaEEeafQMThchk8sQ" name="create_account" type="_x8XsMBaEEeafQMThchk8sQ" association="__Cpl8BaEEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__Cpl9RaEEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__Cpl9haEEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qhsN4BaFEeafQMThchk8sQ" name="A_client_place_advertising" memberEnd="_qhsN4RaFEeafQMThchk8sQ _qhsN5BaFEeafQMThchk8sQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qhsN4RaFEeafQMThchk8sQ" name="client" type="_lasJwBaDEeafQMThchk8sQ" association="_qhsN4BaFEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qhsN4haFEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qhsN4xaFEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qhsN5BaFEeafQMThchk8sQ" name="place_advertising" type="_fpacwBaFEeafQMThchk8sQ" association="_qhsN4BaFEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qhsN5RaFEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qhsN5haFEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_we-rsBaFEeafQMThchk8sQ" name="A_developer_include_updates" memberEnd="_we-rsRaFEeafQMThchk8sQ _we-rtBaFEeafQMThchk8sQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_we-rsRaFEeafQMThchk8sQ" name="developer" type="_sIGAcBaEEeafQMThchk8sQ" association="_we-rsBaFEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_we-rshaFEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_we-rsxaFEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_we-rtBaFEeafQMThchk8sQ" name="include_updates" type="_tdDLwBaFEeafQMThchk8sQ" association="_we-rsBaFEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_we-rtRaFEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_we-rthaFEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_q7gKIBaHEeafQMThchk8sQ" name="A_client_raffle_prize" memberEnd="_q7gKIRaHEeafQMThchk8sQ _q7gKJBaHEeafQMThchk8sQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_q7gKIRaHEeafQMThchk8sQ" name="client" type="_lasJwBaDEeafQMThchk8sQ" association="_q7gKIBaHEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q7gKIhaHEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q7gKIxaHEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_q7gKJBaHEeafQMThchk8sQ" name="raffle_prize" type="_jbZOsBaHEeafQMThchk8sQ" association="_q7gKIBaHEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q7gKJRaHEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q7gKJhaHEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_H_oAoBaIEeafQMThchk8sQ" name="A_user_book_order" memberEnd="_H_oAoRaIEeafQMThchk8sQ _H_oApBaIEeafQMThchk8sQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_H_oAoRaIEeafQMThchk8sQ" name="user" type="_pMcusBaEEeafQMThchk8sQ" association="_H_oAoBaIEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H_oAohaIEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H_oAoxaIEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_H_oApBaIEeafQMThchk8sQ" name="book_order" type="_Torj4BaHEeafQMThchk8sQ" association="_H_oAoBaIEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H_oApRaIEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H_oAphaIEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xq3g8BaOEeafQMThchk8sQ" name="A_developer_delete_profile" memberEnd="_xq3g8RaOEeafQMThchk8sQ _xq3g9BaOEeafQMThchk8sQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xq3g8RaOEeafQMThchk8sQ" name="developer" type="_sIGAcBaEEeafQMThchk8sQ" association="_xq3g8BaOEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xq3g8haOEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xq3g8xaOEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xq3g9BaOEeafQMThchk8sQ" name="delete_profile" type="_nLOSQBaOEeafQMThchk8sQ" association="_xq3g8BaOEeafQMThchk8sQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xq3g9RaOEeafQMThchk8sQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xq3g9haOEeafQMThchk8sQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
