@@ -22,8 +22,8 @@ Im Use-Case-Diagramm gibt es zwei Arten von Verbindungslinien:
 ## 2. COCKBURN TEMPLATE
 **Stellen Sie mindestens 3 Use-Cases aus Aufgabe 1 mithilfe des Cockburn Templates dar. Erstellen Sie dabei sowohl Haupt- als auch Nebenerfolgsszenarios.**
 
-[Cockburn als PDF](Cockburn.pdf)
-[Cockburn mit Open Office](Cockburn.ods)
+* [Cockburn als PDF](Cockburn.pdf)
+* [Cockburn mit Open Office](Cockburn.ods)
 
 ---
 ## 3. COCOMO II
