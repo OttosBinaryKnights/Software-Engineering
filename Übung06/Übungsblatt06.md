@@ -3,6 +3,12 @@
 **Identifizieren Sie systematisch am Beispiel des Use Cases „Bestellung von reduzierten Artikeln“, die in ihm vorkommenden Konzepte. Sollten Sie diesen Use-Case noch nicht erstellt haben, so muss dieser zuvor entsprechend dem Cockburn-Template erstellt werden.**
 * **Wenden Sie die Nominalphrasen-Methode auf den Use Case an.**
 
+  * Nutzer kann Bestellung abgeben
+  * bekommt Rabatt
+  * Produkt kann erworben werden
+  * Tipper kann Zahlen eintragen
+  * Tipp wird auf Produkte übertragen
+
 * **Sortieren Sie anschließend ihre Konzepte in eine Konzeptkategorienliste.**
 
 * **Identifizieren Sie anhand der vorgestellten Verfahren die irrelevanten Konzepte.**
