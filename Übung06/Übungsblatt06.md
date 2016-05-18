@@ -45,7 +45,7 @@
 
 ![Klassendiagramm](Klassendiagramm.jpg)
 
-![Klassendiagramm](TippspieClassDiagram.jpg)
+![Klassendiagramm](TippspieClassDiagraml.jpg)
 
 ---
 ## 3. ASSOZIATIONEN
