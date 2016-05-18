@@ -45,6 +45,8 @@
 
 ![Klassendiagramm](Klassendiagramm.jpg)
 
+![Klassendiagramm](TippspieClassDiagram.jpg)
+
 ---
 ## 3. ASSOZIATIONEN
 **Erläutern Sie anhand ihres Konzeptmodells in Aufgabe 2, an welchen Stellen Assoziationen der Verwendung von Attributen vorzuziehen wären bzw. warum Sie Assoziationen statt Attributen gewählt haben.**
