@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_3D78QBzBEea-O7Kc0542pg" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_53ELMBzBEea-O7Kc0542pg" name="User" visibility="package">
+    <ownedAttribute xmi:type="uml:ExtensionEnd" xmi:id="_n13aIBzCEea-O7Kc0542pg" name="name"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DQq-4BzCEea-O7Kc0542pg" name="Tipp"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Lg4hkBzCEea-O7Kc0542pg" name="Gibt ab" client="_53ELMBzBEea-O7Kc0542pg" supplier="_DQq-4BzCEea-O7Kc0542pg"/>
+</uml:Model>

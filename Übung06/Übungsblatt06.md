@@ -4,12 +4,6 @@
 
 * **Wenden Sie die Nominalphrasen-Methode auf den Use Case an.**
 
-  * Nutzer kann Bestellung abgeben
-  * Nutzer bekommt Rabatt
-  * Produkt kann erworben werden
-  * Tipper kann Zahlen eintragen
-  * Tipp wird auf Produkte übertragen
-
   ![Lösung](Abb01.jpg)
 
 * **Sortieren Sie anschließend ihre Konzepte in eine Konzeptkategorienliste.**
@@ -24,11 +18,11 @@
 | Externe Datensätze |    |
 | Nutzer | Nutzer |   
 | Rollen | Nutzer |
-| Ereignisse |         |
+| Ereignisse | Tipperfolg |
 
 * **Identifizieren Sie anhand der vorgestellten Verfahren die irrelevanten Konzepte.**
 
-  * Tipperfolg, Ziffern, Spiel
+  * Ziffern, Spiel
 
 * **Erstellen Sie ein Glossar der Konzepte mit Synonymen und Konzeptbeschreibungen.**
 
@@ -42,7 +36,7 @@
 | Nutzer | Nutzer des Shops | Endnutzer, User, Kunde |
 | Tipp | Ergebnisvorhersage eines Fußballspiels durch den Nutzer |   |
 | Berechnung | Ermittlung des Rabattes |   |
-
+| Tipperfolg | Erfolgreiche Vorhersage eines Spiels |   |
 
 ---
 ## 2. KLASSENDIAGRAMM
