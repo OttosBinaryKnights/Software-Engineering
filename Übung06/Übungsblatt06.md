@@ -23,28 +23,46 @@
   * Tipper kann Zahlen eintragen
   * Tipp wird auf Produkte übertragen
 
+  * ![Lösung](Abb01.jpg)
+
 * **Sortieren Sie anschließend ihre Konzepte in eine Konzeptkategorienliste.**
 
 | Kategorie | Konzept |
 | :-------: | ------- |
-| Physische Objekte |  |
-| Transaktionen |      |
+| Physische Objekte | Produkt, Artikel |
+| Transaktionen | Rabatt, Bestellung |
 | Externe (Computer-)Systeme |   |
-| Organisationen |     |
-| Interne Datensätze |    |
+| Organisationen | Shop, Tippseite, Datenbank |
+| Interne Datensätze | Tipp, Rabatt |
 | Externe Datensätze |    |
-| Nutzer |             |   
-| Rollen |             |
+| Nutzer | Nutzer |   
+| Rollen | Nutzer |
 | Ereignisse |         |
 
 * **Identifizieren Sie anhand der vorgestellten Verfahren die irrelevanten Konzepte.**
 
+  * Tipperfolg, Ziffern, Spiel
+
 * **Erstellen Sie ein Glossar der Konzepte mit Synonymen und Konzeptbeschreibungen.**
+
+| Glossar | Beschreibung | Synonym |
+| :-----: | ------------ | ------- |
+| Produkt | Zum Kauf angebotene Gegenstände | Artikel |
+| Rabatt | Ermäßigung des Preises, hervorgerufen durch erfolgreichen Tipp |   |
+| Bestellung | Vorgang, wie der Kunde seine Produkte erwirbt |   |
+| Shop | Virtueller Ort, wo der Kunde einkauft, das Tippspiel abgibt und die Bestellung abgibt |   |
+| Datenbank | Datenspeicherort für alle relevanten Daten |   |
+| Nutzer | Nutzer des Shops | Endnutzer, User, Kunde |
+| Tipp | Ergebnisvorhersage eines Fußballspiels durch den Nutzer |   |
+| Berechnung | Ermittlung des Rabattes |   |
+
 
 ---
 ## 2. KLASSENDIAGRAMM
 **Modellieren Sie nun die Konzepte aus Aufgabe 1 als Konzeptklassen in einem Klassendiagramm bzw. Konzeptmodell.**
 *Hinweis: Das Klassendiagramm ist mit ein Modellierungstool zu erstellen.*
+
+![Klassendiagramm](Klassendiagramm.jpg)
 
 ---
 ## 3. ASSOZIATIONEN
