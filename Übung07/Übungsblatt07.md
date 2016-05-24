@@ -11,9 +11,19 @@
 ## 2. ALTERNATIVEN
 **Betrachten Sie einen weiteren (keinen aus Aufgabe 1) Use Case ihrer Wahl, wobei der Use Case mindestens eine Alternative haben soll. Wie kann man die Alternative im Sequenzdiagramm darstellen? Erstellen Sie das Sequenzdiagramm inklusive der Alternative(n) in einem CASE-Tool.**
 
+* Alternativen werden durch Blöcke dargestellt.
+
 ---
 ## 3. KONTRAKTE
 **Beschreiben Sie mindestens 3 Kontrakte für beliebige Operationen aus Aufgabe 1 und 2. Nutzen Sie dabei das in der Vorlesung vorgestellte Schema um die zentralen Aspekte eines Kontrakts natürlichsprachlich zu beschreiben.**
+
+| Operation     | send_shopping_card |
+| ------------- | ------------ |
+| Beschreibung  |   |
+| Ergebnisse    |   |
+| Nachbedingung |   |
+| Vorbedingung  |   |
+| Ausnahme      |   |
 
 ---
 ## 4. OBJECT CONSTRAINT LANGUAGE
