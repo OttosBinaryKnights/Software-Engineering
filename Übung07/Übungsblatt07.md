@@ -45,3 +45,17 @@
 ---
 ## 4. OBJECT CONSTRAINT LANGUAGE
 **Formulieren Sie die Kontrakte aus Aufgabe 3 in der Object Constraint Language. Erstellen Sie mindestens eine Invariante, eine Vor- und eine Nachbedingung.**
+
+* context typename modifier (identifier) : formula
+
+* context send_shopping_card PRE (shopping_card_not_empty) : self.shopping_card>0
+* context send_shopping_card POST (identifier) : formula
+* context send_shopping_card INV (identifier) : formula
+ 
+* context request_stock PRE (server_ready) : server_ready==true
+* context request_stock POST (request_accepted) : request_accepted==true
+* context request_stock INV () : formula
+
+* context calculate_discount PRE (price) : price>0
+* context calculate_discount POST (identifier) : formula
+* context calculate_discount INV () : 
