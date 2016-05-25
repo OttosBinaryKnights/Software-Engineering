@@ -21,11 +21,27 @@
 
 | Operation     | send_shopping_card |
 | ------------- | ------------ |
-| Beschreibung  |  |
-| Ergebnisse    |   |
-| Nachbedingung |   |
-| Vorbedingung  |   |
-| Ausnahme      |   |
+| Beschreibung  | Liste an Produkten wird an GUI gesendet |
+| Ergebnisse    | Produktliste ist in GUI |
+| Nachbedingung | Produktliste ist in GUI |
+| Vorbedingung  | Server bereit, User ist online, gefüllter Warenkorb |
+| Ausnahme      |  |
+
+| Operation     | request_stock |
+| ------------- | ------------ |
+| Beschreibung  | Anfrage an die Datenbank nach Anzahl eines Produktes im Lager |
+| Ergebnisse    | Anzahl der Produkte im Lager |
+| Nachbedingung | Anfrage angenommen |
+| Vorbedingung  | Server bereit |
+| Ausnahme      | Produkt unbekannt |
+
+| Operation     | calculate_discount |
+| ------------- | ------------ |
+| Beschreibung  | Rabatt für ein Produkt wird berechnet |
+| Ergebnisse    | Reduzierter Preis |
+| Nachbedingung | erfolgreiche Berechnung |
+| Vorbedingung  | Preis bekannt, Rabatt vorhanden |
+| Ausnahme      |  |
 
 ---
 ## 4. OBJECT CONSTRAINT LANGUAGE
