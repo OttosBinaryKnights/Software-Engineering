@@ -57,10 +57,65 @@ A singleton pattern ensures that you always get back the same instance of what
 ## 2. DESIGN PATTERN
 **Recherchieren Sie zwei weitere (keine aus der Vorlesung bzw. Übung) Design Patterns. Stellen Sie diese durch die in der Vorlesung gezeigte Struktur dar.**
 
-* builder pattern
-* abstract factory pattern
-* multiton pattern
-* prototype pattern
+* Pattern-Name: builder pattern
+* Pattern-Klassifikation:
+* Intention:
+* Andere Namen:
+* Motivation:
+* Anwendbarkeit:
+* Struktur:
+* Beteiligte Objekte:
+* Zusammenarbeit:
+* Konsequenzen:
+* Implementierung:
+* Beispielcode:
+* Bekannte Verwendungen:
+* Verwandte Patterns:
+
+* Pattern-Name: abstract factory pattern
+* Pattern-Klassifikation:
+* Intention:
+* Andere Namen:
+* Motivation:
+* Anwendbarkeit:
+* Struktur:
+* Beteiligte Objekte:
+* Zusammenarbeit:
+* Konsequenzen:
+* Implementierung:
+* Beispielcode:
+* Bekannte Verwendungen:
+* Verwandte Patterns:
+
+* Pattern-Name: multiton pattern
+* Pattern-Klassifikation:
+* Intention:
+* Andere Namen:
+* Motivation:
+* Anwendbarkeit:
+* Struktur:
+* Beteiligte Objekte:
+* Zusammenarbeit:
+* Konsequenzen:
+* Implementierung:
+* Beispielcode:
+* Bekannte Verwendungen:
+* Verwandte Patterns:
+
+* Pattern-Name: prototype pattern
+* Pattern-Klassifikation:
+* Intention:
+* Andere Namen:
+* Motivation:
+* Anwendbarkeit:
+* Struktur:
+* Beteiligte Objekte:
+* Zusammenarbeit:
+* Konsequenzen:
+* Implementierung:
+* Beispielcode:
+* Bekannte Verwendungen:
+* Verwandte Patterns:
 
 **Erstellen Sie ein zugehöriges Klassendiagramm und erläutern Sie deren Motivation und Funktionsweisen an einem selbstgewählten Beispiel.**
 
