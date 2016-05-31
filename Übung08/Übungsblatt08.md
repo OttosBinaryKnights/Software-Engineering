@@ -2,13 +2,69 @@
 ## 1. SINGLETON PATTERN
 **Recherchieren Sie im Internet das Singleton-Pattern. Zeigen Sie anschließend anhand eines selbstgewählten Beispiels, wie Singeltons eingesetzt werden können und wofür sie benutzt werden.**
 
+Das Singleton (selten auch Einzelstück genannt) ist ein in der Softwareentwicklung eingesetztes Entwurfsmuster und gehört zur Kategorie der Erzeugungsmuster (engl. creational patterns). Es stellt sicher, dass von einer Klasse genau ein Objekt existiert.
+
+* Eigenschaften:
+   * erzeugt und verwaltet das einzige Objekt der Klasse
+   * bietet globalen Zugriff auf dieses Objekt über eine Instanzoperation (getInstance()).
+   * die Instanzoperation eine Klassenmethode, das heißt statisch gebunden
+   * das private Attribut „Instanz“ (instance) ein Klassenattribut, das heißt ein statisches Attribut.
+
+ * Vorteile:
+   * Zugriffskontrolle kann realisiert werden.
+   * Das Singleton kann durch Unterklassenbildung spezialisiert werden.
+   * Welche Unterklasse verwendet werden soll, kann zur Laufzeit entschieden werden.
+   * Die Einzelinstanz muss nur erzeugt werden, wenn sie benötigt wird.
+   * Sollten später mehrere Objekte benötigt werden, ist eine Änderung leichter möglich als bei globalen Variablen.
+
+* Anwendungsbeispiele sind
+  * ein zentrales Protokoll-Objekt, das Ausgaben in eine Datei schreibt.
+  * Druckaufträge, die zu einem Drucker gesendet werden, sollen nur in einen einzigen Puffer geschrieben werden.
+
+Das Singleton Entwurfsmuster sorgt dafür, dass es von einer Klasse nur eine einzige Instanz gibt und diese global zugänglich ist.
+
+Damit es nur eine einzigartige Instanz gibt, muss eine Instanziierung durch den Client verhindert werden. Dafür wird der Konstruktur privat deklariert. Nun kann einzig der Singletoncode selbst das Singleton instanziieren.
+
+Weiterhin definiert die Singletonklasse eine global verfügbare Methode, in der diese einzigartige Singletoninstanz zurückgegeben wird. In Java wird dies mit den Modifiern public und static erreicht. Der Singletoncode muss (in der Methode) sicherstellen, dass immer nur ein und dasselbe Objekte an den Client gelangt.
+Beispielcode für ein Singleton Pattern
+
+public class Singleton {
+
+    //Field hält Referenz auf einzigartige Instanz
+    private static Singleton instance;
+
+    // Privater Konstruktur verhindert Instanziierung durch Client
+    private Singleton(){
+    }
+
+    //Stellt Einzigartigkeit sicher. Liefert Exemplar an Client.
+    //Hier: Unsynchronisierte Lazy-Loading-Variante
+    public static Singleton getInstance(){
+        if (instance == null){
+            instance = new Singleton();
+        }
+        return instance;
+    }
+
+    //logic code
+}
+
 **Was ist der Unterschied zum Factory Pattern?**
+
+A singleton pattern ensures that you always get back the same instance of whatever type you are retrieving, whereas the factory pattern generally gives you a different instance of each type.
 
 ---
 ## 2. DESIGN PATTERN
 **Recherchieren Sie zwei weitere (keine aus der Vorlesung bzw. Übung) Design Patterns. Stellen Sie diese durch die in der Vorlesung gezeigte Struktur dar.**
 
+* builder pattern
+* abstract factory pattern
+* multiton pattern
+* prototype pattern
+
 **Erstellen Sie ein zugehöriges Klassendiagramm und erläutern Sie deren Motivation und Funktionsweisen an einem selbstgewählten Beispiel.**
+
+![prototype](Prototype.png)
 
 **Für welche Anwendungsfälle ist das Pattern geeignet, für welche ungeeignet?**
 
