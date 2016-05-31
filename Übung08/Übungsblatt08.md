@@ -59,8 +59,8 @@ A singleton pattern ensures that you always get back the same instance of what
 
 | Pattern-Name:  | builder pattern |
 | ------------- | ------------ |
-| Pattern-Klassifikation: |  |
-| Intention: |  |
+| Pattern-Klassifikation: | Erzeugendes Pattern |
+| Intention: | trennen der Konstruktion komplexer Objekte von deren Repräsentationen, wodurch dieselben Konstruktionsprozesse wiederverwendet werden können |
 | Andere Namen: |  |
 | Motivation: |  |
 | Anwendbarkeit: |  |
