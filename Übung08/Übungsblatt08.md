@@ -131,7 +131,13 @@ A singleton pattern ensures that you always get back the same instance of what
 ## 3. ANTI-PATTERN
 **Recherchieren Sie zwei weitere Anti Patterns (keine aus der Vorlesung). Erläutern Sie dessen Funktionsweise an einem selbstgewählten Beispiel.**
 
+* Spaghetticode
+ 
+* Das Rad neu erfinden
+
 **In welchen Fällen treten diese Antipatterns besonders häufig auf?**
+
+* In der Regel entstehen Anti-Pattern wider besseres Wissen, durch mangelnde Erfahrung oder fehlende Qualifikation. Zu beobachten ist allerdings auch die bewusste Verfolgung in bestimmten Szenarien, um einen bestimmten Zweck zu erreichen. Die Auswirkungen des Auftretens von Anti-Pattern reichen von marginal bis unternehmenskritisch.
 
 ---
 ## 4. FUßBALLTIPPSPIEL
