@@ -57,7 +57,7 @@ A singleton pattern ensures that you always get back the same instance of what
 ## 2. DESIGN PATTERN
 **Recherchieren Sie zwei weitere (keine aus der Vorlesung bzw. Übung) Design Patterns. Stellen Sie diese durch die in der Vorlesung gezeigte Struktur dar.**
 
-| Pattern-Name: builder pattern |  |
+| Pattern-Name:  | builder pattern |
 | ------------- | ------------ |
 | Pattern-Klassifikation: |  |
 | Intention: |  |
@@ -73,7 +73,7 @@ A singleton pattern ensures that you always get back the same instance of what
 | Bekannte Verwendungen: |  |
 | Verwandte Patterns: |  |
 
-| Pattern-Name: abstract factory pattern |  |
+| Pattern-Name:  | abstract factory pattern |
 | ------------- | ------------ |
 | Pattern-Klassifikation: |  |
 | Intention: |  |
@@ -89,7 +89,7 @@ A singleton pattern ensures that you always get back the same instance of what
 | Bekannte Verwendungen: |  |
 | Verwandte Patterns: |  |
  
-| Pattern-Name: multiton pattern|  |
+| Pattern-Name: | multiton pattern |
 | ------------- | ------------ |
 | Pattern-Klassifikation: |  |
 | Intention: |  |
@@ -105,7 +105,7 @@ A singleton pattern ensures that you always get back the same instance of what
 | Bekannte Verwendungen: |  |
 | Verwandte Patterns: |  |
 
-| Pattern-Name: prototype pattern |  |
+| Pattern-Name:  | prototype pattern |
 | ------------- | ------------ |
 | Pattern-Klassifikation: |  |
 | Intention: |  |
