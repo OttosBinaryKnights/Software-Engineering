@@ -131,9 +131,29 @@ A singleton pattern ensures that you always get back the same instance of what
 ## 3. ANTI-PATTERN
 **Recherchieren Sie zwei weitere Anti Patterns (keine aus der Vorlesung). Erläutern Sie dessen Funktionsweise an einem selbstgewählten Beispiel.**
 
-* Spaghetticode
- 
-* Das Rad neu erfinden
+| Pattern-Name:  | Spaghetticode |
+| ------------- | ------------ |
+| Andere Namen: |  |
+| Primäre Ebene: |  |
+| Name der Lösung: |  |
+| Typ der Lösung: |  |
+| Hauptursachen: |  |
+| Nicht-ausgeglichene Kräfte: |  |
+| Symptome und Konsequenzen: |  |
+| Verwandte Lösungen: |  |
+| Mögliche Anwendungen: |  |
+
+| Pattern-Name:  | Das Rad neu erfinden |
+| ------------- | ------------ |
+| Andere Namen: |  |
+| Primäre Ebene: |  |
+| Name der Lösung: |  |
+| Typ der Lösung: |  |
+| Hauptursachen: |  |
+| Nicht-ausgeglichene Kräfte: |  |
+| Symptome und Konsequenzen: |  |
+| Verwandte Lösungen: |  |
+| Mögliche Anwendungen: |  | 
 
 **In welchen Fällen treten diese Antipatterns besonders häufig auf?**
 
