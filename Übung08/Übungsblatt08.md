@@ -133,26 +133,26 @@ A singleton pattern ensures that you always get back the same instance of what
 
 | Pattern-Name:  | Spaghetticode |
 | ------------- | ------------ |
-| Andere Namen: |  |
-| Primäre Ebene: |  |
+| Andere Namen: | - |
+| Primäre Ebene: | Code-Ebene |
 | Name der Lösung: |  |
-| Typ der Lösung: |  |
-| Hauptursachen: |  |
+| Typ der Lösung: | Human Factors |
+| Hauptursachen: | Unerfahrender Programmierer, Sofort drauf los programmieren |
 | Nicht-ausgeglichene Kräfte: |  |
-| Symptome und Konsequenzen: |  |
+| Symptome und Konsequenzen: | Undurchschaubarer Code |
 | Verwandte Lösungen: |  |
 | Mögliche Anwendungen: |  |
 
 | Pattern-Name:  | Das Rad neu erfinden |
 | ------------- | ------------ |
-| Andere Namen: |  |
-| Primäre Ebene: |  |
+| Andere Namen: | - |
+| Primäre Ebene: | Code |
 | Name der Lösung: |  |
-| Typ der Lösung: |  |
-| Hauptursachen: |  |
-| Nicht-ausgeglichene Kräfte: |  |
-| Symptome und Konsequenzen: |  |
-| Verwandte Lösungen: |  |
+| Typ der Lösung: | Software |
+| Hauptursachen: | Alles selbst machen wollen |
+| Nicht-ausgeglichene Kräfte: | - |
+| Symptome und Konsequenzen: | Zu viel Zeit wird verschwendet um etwas neu zu schreiben was es schon gibt |
+| Verwandte Lösungen: | - |
 | Mögliche Anwendungen: |  | 
 
 **In welchen Fällen treten diese Antipatterns besonders häufig auf?**
