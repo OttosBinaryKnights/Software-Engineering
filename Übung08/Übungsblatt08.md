@@ -73,13 +73,14 @@ A singleton pattern ensures that you always get back the same instance of what
 | Bekannte Verwendungen: |  |
 | Verwandte Patterns: |  |
 
-| Pattern-Name:  | abstract factory pattern |
+| Pattern-Name:  | Brücke |
 | ------------- | ------------ |
-| Pattern-Klassifikation: |  |
-| Intention: |  |
-| Andere Namen: |  |
-| Motivation: |  |
-| Anwendbarkeit: |  |
+| Pattern-Klassifikation: | Strukturierendes Pattern |
+| Intention: | Wahrung der Übersichtlichkeit bei Bezug auf die Vererbungshirarchie |
+| Andere Namen: | - |
+| Motivation: | Bezeichnet künstlich erschaffendes Objekt, welches 2 eigenständige Objekte verbindet |
+| Anwendbarkeit: | Sowohl abstraktion als auch implementierung erweiterbar sein soll und verbindung verhindert werden soll
+Änderung Implementieren ohne Auswirkung für Klienten|
 | Struktur: |  |
 | Beteiligte Objekte: |  |
 | Zusammenarbeit: |  |
@@ -89,13 +90,13 @@ A singleton pattern ensures that you always get back the same instance of what
 | Bekannte Verwendungen: |  |
 | Verwandte Patterns: |  |
  
-| Pattern-Name: | multiton pattern |
+| Pattern-Name: | Fassade |
 | ------------- | ------------ |
-| Pattern-Klassifikation: |  |
-| Intention: |  |
-| Andere Namen: |  |
+| Pattern-Klassifikation: | Strukturierendes Pattern |
+| Intention: | Vereinfachung des Benutzens von großen Projekten |
+| Andere Namen: | - |
 | Motivation: |  |
-| Anwendbarkeit: |  |
+| Anwendbarkeit: | große ,unübersichtliche Projekte|
 | Struktur: |  |
 | Beteiligte Objekte: |  |
 | Zusammenarbeit: |  |
