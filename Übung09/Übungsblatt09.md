@@ -18,6 +18,6 @@
 
 ---
 ## 4. WEITERE SOFTWAREARCHITEKTURMUSTER
-**In der Vorlesung wurden verschiedene Softwarearchitekturen vorgestellt. Finden Sie 2 weitere Architekturmuster (nicht MVP) und beschreiben Sie diese.** 
+**In der Vorlesung wurden verschiedene Softwarearchitekturen vorgestellt. Finden Sie 2 weitere Architekturmuster (nicht MVP) und beschreiben Sie diese.**
 
 **Ermitteln Sie für die gewählten Muster Vor- und Nachteile sowie das Einsatzgebiet. Bereiten Sie zur besseren Präsentation Ihrer gewählten Muster einen Foliensatz vor, mit dem Sie das Muster vorstellen können.**
