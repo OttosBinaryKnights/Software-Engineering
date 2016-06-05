@@ -1,14 +1,29 @@
 # Übungsblatt 10
 ## 1. SOFTWAREARCHITEKTURMUSTER
 **Was sind Softwarearchitekturmuster?**
+* Architekturmuster sind abstrakte Modelle verbreiteter und erprobter Softwarearchitekturen
 
 **Inwiefern unterscheiden Sie sich von Entwurfsmuster und Ideome?**
 
+| Architekturmuster | Entwurfsmuster | Ideome |
+| ----------------- | -------------- | ------ |
+| Schablone für Softwarearchitekturen | Gliederung der Teilsysteme in Logische Bestandteile | Lösungskonzepte auf Programmierebene |
+| Globale Systemeigenschaften | Lösungen für Softwarearkomponenten | Namenskonventionen |
+| Subsysteme/Trennschichten | Keine Auswirkung auf die Softwarearchitektur | Impementierungs-Pattern |
+
 **Nennen Sie Beispiele für Entwurfsmuster und Ideome.**
+* Entwurfsmuster:
+  * singleton pattern
+  * prototype pattern
+  * builder pattern
+* Ideome:
 
 ---
 ## 2. SOFTWAREARCHITEKTURMUSTER
 **In welche Kategorien lassen sich Architekturmuster einteilen?**
+* Adaptive Systeme
+* Verteilte Systeme
+* Interaktive Systeme
 
 **Nennen sie Vor- und Nachteile der jeweiligen Kategorie und erläutern Sie je ein Beispiel.**
 
