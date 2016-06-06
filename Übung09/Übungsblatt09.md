@@ -23,6 +23,7 @@
 ---
 ## 2. SOFTWAREARCHITEKTURMUSTER
 **In welche Kategorien lassen sich Architekturmuster einteilen?**
+* Strukturierungsmuster
 * Adaptive Systeme
 * Verteilte Systeme
 * Interaktive Systeme
