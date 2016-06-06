@@ -30,9 +30,27 @@
 
 **Nennen sie Vor- und Nachteile der jeweiligen Kategorie und erläutern Sie je ein Beispiel.**
 
+
+
 ---
 ## 3. MODEL-VIEW-CONTROLLER
 **Das Model-View-Controller Prinzip ist eines der beliebtesten Architekturmuster der Softwaretechnik. Informieren Sie sich über das MVC Prinzip. Erläutern Sie es anhand eines selbstgewählten praktischen Beispiels. Inwiefern unterscheidet sich das MVC Prinzip vom Model-View-Presenter Prinzip?**
+* Model:
+  * enthält nur Daten, keine Funktionalitäten auf diesen
+  * Fassade stellt Daten nach außen zur Verfügung
+* Controller:
+  * führt Änderungen an Daten durch
+  * Fassade stellt Funktionen auf Daten zur Verfügung
+* View:
+  * Enthält nur Darstellungslogik, keine Applikationslogik
+
+* Unterschied:
+  * MVP hat für jeden View einen Presenter, kann also mehrere Views für ein Modell haben
+  * MVC: Austauschbarkeit in „der Tiefe“
+  * MVP: Austauschbarkeit „in der Breite“
+
+
+
 
 ---
 ## 4. WEITERE SOFTWAREARCHITEKTURMUSTER
