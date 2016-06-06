@@ -17,6 +17,8 @@
   * prototype pattern
   * builder pattern
 * Ideome:
+  * pointer to implementation idiom (c++)
+  * d-zeiger idiom (c++)
 
 ---
 ## 2. SOFTWAREARCHITEKTURMUSTER
