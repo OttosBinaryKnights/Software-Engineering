@@ -1,4 +1,4 @@
-# Übungsblatt 10
+# Übungsblatt 09
 ## 1. SOFTWAREARCHITEKTURMUSTER
 **Was sind Softwarearchitekturmuster?**
 * Architekturmuster sind abstrakte Modelle verbreiteter und erprobter Softwarearchitekturen
@@ -23,14 +23,71 @@
 ---
 ## 2. SOFTWAREARCHITEKTURMUSTER
 **In welche Kategorien lassen sich Architekturmuster einteilen?**
-* Strukturierungsmuster
-* Adaptive Systeme
-* Verteilte Systeme
-* Interaktive Systeme
+* Strukturierungsmuster (Pipes und Filter)
+    * Filter (Komponenten)
+        * Stellen Eingabe- und Ausgabestreams zur Verfügung
+        * Lesen vom Eingabestream
+        * Schreiben in den Ausgabestream
+        * Jeder Filter transformiert autonom und unabhängig die Ein- zur Ausgabe
+    * Pipes (Verbinder)
+      * Verbinden Ausgabestreams mit Eingabestreams
+    * z.B. Traditionelle Compiler
+* Adaptive Systeme (Mikro Kernel)
+  * z.B. Mikro Kernel
+    * Kern mit Grundfunktionen
+    * Erweiterungen um diesen Kern
+* Verteilte Systeme (Client Server)
+  * Ein Server bedient mehrere Clients
+  * Server besitzt Gesamtfunktionalität
+  * Client verfügt über einfache GUI
+  * Kommunikation über serverseitiges User Interface
+  * z.B. Browserbasierte Systeme (z.B. Outlook Web Access)
+* Interaktive Systeme (Model-View-Controller)
+  * Strukturierung der Mensch-Maschine-Interaktion
+  * z.B. Model-View-Controller
+    * Model
+      * enthält nur Daten, keine Funktionalitäten auf diesen
+      * Fassade stellt Daten nach außen zur Verfügung
+    * Controller
+      * führt Änderungen an Daten durch
+      * Fassade stellt Funktionen auf Daten zur Verfügung
+      * Enthält nur Darstellungslogik, keine Applikationslogik
+
 
 **Nennen sie Vor- und Nachteile der jeweiligen Kategorie und erläutern Sie je ein Beispiel.**
 
+| Strukturierungsmuster | Pipes und Filter |
+| ----------------- | --- |
+| Vorteil           | Einfache, verständliche Dekomposition |
+|                   | Wiederverwendbarkeit einzelner Filter |
+|                   | Erweiterbarkeit durch Austausch oder Hinzufügen von Filtern |
+|                   | Filter sind Parallelisierbar |
+| Nachteil          | Nicht für interactive Systeme geeignet |
+|                   | Meistens nur primitive Datentypen in Streams |
+|                   | Performanzprobleme |
+|                   | Hohe Komplexität der Filter |
 
+| Verteilte Systeme |     |
+| ----------------- | --- |
+| Vorteil           | Keine Installation/Wartung durch Benutzer |
+|                   |  Hohe Flexibilität der Endgeräte |
+|                   | Billige Clients (Thin-Clients, Web-Clients) |
+| Nachteil          | Potentielles Bottleneck |
+|                   | Single Point of Failure |
+|                   | Hohe Rechenleistung am Server notwendig |
+
+| Adaptive Systeme | Mikro Kernel |
+| ----------------- | --- |
+| Vorteil           | Kernel ist weitestgehend unabhängig |
+|                   | Projektübergreifende Wiederverwendbarkeit |
+| Nachteil          | Aufwendig zu erstellen, da allgemein Einsetzbar |
+
+| Interaktive Systeme | Model-View-Controller |
+| ----------------- | --- |
+| Vorteil           | Austauschbarkeit in „der Tiefe“ |
+|                   | Separierung von Abstraktionsgraden |
+| Nachteil          | Controller wird sehr groß |
+|                   | Seiteneffekte, wenn Funktionen des Controllers von mehreren Views benutzt wird|
 
 ---
 ## 3. MODEL-VIEW-CONTROLLER
@@ -48,9 +105,6 @@
   * MVP hat für jeden View einen Presenter, kann also mehrere Views für ein Modell haben
   * MVC: Austauschbarkeit in „der Tiefe“
   * MVP: Austauschbarkeit „in der Breite“
-
-
-
 
 ---
 ## 4. WEITERE SOFTWAREARCHITEKTURMUSTER
