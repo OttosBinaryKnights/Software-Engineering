@@ -109,5 +109,18 @@
 ---
 ## 4. WEITERE SOFTWAREARCHITEKTURMUSTER
 **In der Vorlesung wurden verschiedene Softwarearchitekturen vorgestellt. Finden Sie 2 weitere Architekturmuster (nicht MVP) und beschreiben Sie diese.**
+* Data Context Interaction(Strukturierungsmuster):
+  * für die Modellierung der Fachlichkeit komplexer objektorientierter Software
+  * DCI trennt Fachobjekte ("Data") von Anwendungsfällen ("Context") und Rollen ("Interaction")
+  * basiert nicht darauf Klassen zu modellieren sondern Objekte zu beschreiben
+
+* Peer-to-Peer Connection(Verteilte Systeme):
+  * Kommunikation unter gleichen
+  * Alle Rechner gleichberechtigt, können sowohl Dienste in Anspruch nehmen als auch zur Verfügung stellen
+  * In modernen P2P-Netzwerken werden Netzwerkteilnehmer häufig abhängig von Qualifikation in Gruppen eingeteilt die Aufgaben übernehmen
+  * Kernkomponente in modernen P2P-Netzwerken meist Overlay-Netz
+  * Es gibt strukturierte und unstrukturierte P2P-Netzwerke
+  * Mittels Suchfunktion möglich Objekte zu suchen,falls gefunden erfolgt direkte Übertragung
+  * Gegensatz Client-Server-Modell
 
 **Ermitteln Sie für die gewählten Muster Vor- und Nachteile sowie das Einsatzgebiet. Bereiten Sie zur besseren Präsentation Ihrer gewählten Muster einen Foliensatz vor, mit dem Sie das Muster vorstellen können.**
