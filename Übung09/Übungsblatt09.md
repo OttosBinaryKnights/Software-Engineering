@@ -113,6 +113,16 @@
   * für die Modellierung der Fachlichkeit komplexer objektorientierter Software
   * DCI trennt Fachobjekte ("Data") von Anwendungsfällen ("Context") und Rollen ("Interaction")
   * basiert nicht darauf Klassen zu modellieren sondern Objekte zu beschreiben
+  * Herangehensweise verspricht keine überladene Klassen zu bekommen sondern Fachobjekte ("Data") ohne eigene fachliche Funktionalität
+  * Data:
+   * Bezeichnet die Fachobjekte und ihre Relationen untereinander
+   * enthalten keinerlei fachliche Funktionen, sind simple Datenhalter
+   * entsprechen dem Modell des MVC
+  * Context:
+   * Beschreiben Kontext in welchem Data-Objekte in spezifischen Rollen verwendet werden (Anwendungfälle, Algorithmen)
+   * Hauptaufgabe Data-Objekte zu identifizieren und an eine Rolle zu binden
+  * Interaction:
+   * Rollen (Sammlung von Veratwortlichen) welche Daten-Objekten zugeornet werden
 
 * Peer-to-Peer Connection(Verteilte Systeme):
   * Kommunikation unter gleichen
@@ -124,3 +134,18 @@
   * Gegensatz Client-Server-Modell
 
 **Ermitteln Sie für die gewählten Muster Vor- und Nachteile sowie das Einsatzgebiet. Bereiten Sie zur besseren Präsentation Ihrer gewählten Muster einen Foliensatz vor, mit dem Sie das Muster vorstellen können.**
+* DCI
+  * Vorteile:
+   * Es findet keine Überladung von Klassen statt
+  * Nachteile:
+   * Noch keine wirklich passende Programmiersprache vorhanden
+  * Einsatzgebiet:
+   * Apache Zest, ein Java Framework für Domain-zentrierte Applikationsentwicklung
+
+* P2P:
+  * Vorteile:
+   * schnellere Datenübertragung zwischen den Peers 
+  * Nachteile:
+   * Nicht so hohe Verfügbarkeit wie bei Client-Server
+  * Einsatzgebiet:
+   * Torrents
