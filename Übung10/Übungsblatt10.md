@@ -2,9 +2,21 @@
 ## 1. TEST-DRIVEN DEVELOPMENT
 **Beschreiben Sie das Vorgehen beim Test-Driven Development.**
 
+* 1. „Überlege“ wünschenswertes Verhalten, das im Moment nicht vorhanden ist.
+* 2. Schreibe einen Testfall der dieses Verhalten erzeugt (und somit auch fehlschlägt).
+* 3. Schreibe Code der den Testfall nicht mehr fehlschlagen lässt.
+* 4. Verbessere den Code durch Refactoring.
+
 **Was Sind die Vor- bzw. Nachteile dieses Entwicklungsprozesses?**
+ * Vorteile:
+  * Bessere Fehlererkennung
+
+* Nachteile:
+  * Mehr Aufwand
 
 **Wiestehen Siedazu? Begründen Sie Ihre Meinung.**
+* Gutes Verfahren, kann jedoch je nach Größe zu Aufwendig werden.
+
 
 ---
 ## 2. BLACK-BOXES UND WHITE-BOXES
