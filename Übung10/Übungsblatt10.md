@@ -31,6 +31,15 @@
   * Grundidee: Bildung von Äquivalenzklassen
 
 * White-Boxes:
+  * Tests mit Kenntnissen über die innere Funktionsweise des zu testenden Systems
+  * es wird am Code geprüft
+  * häufig hierfür benutzt Kontrollflussgraph
+  * Viel leichter durchführbar als Black-Box Tests
+
+* White-Box Tests gut um Fehler in den Teilkomponenten aufzudecken und zu lokalisieren
+* Black-Box Tests gut um Fehler gegenüber der Spezifikation aufzudecken
+
+
 
 ---
 ## 3. TESTABDECKUNG
