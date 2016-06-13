@@ -36,8 +36,8 @@
   * häufig hierfür benutzt Kontrollflussgraph
   * Viel leichter durchführbar als Black-Box Tests
 
-* White-Box Tests gut um Fehler in den Teilkomponenten aufzudecken und zu lokalisieren
-* Black-Box Tests gut um Fehler gegenüber der Spezifikation aufzudecken
+* White-Box Tests gut um Fehler in den Teilkomponenten aufzudecken und zu lokalisieren (Strukturorientiert)
+* Black-Box Tests gut um Fehler gegenüber der Spezifikation aufzudecken (Funktionsorientiert)
 
 
 
