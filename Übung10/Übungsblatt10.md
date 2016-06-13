@@ -22,6 +22,16 @@
 ## 2. BLACK-BOXES UND WHITE-BOXES
 **Beschreiben Sie die Begriffe Black-Boxes und White-Boxes im Zusammenhang von Testdurchführungen mit Hilfe eines selbstgewählten Beispiels. Erklären Sie am Beispiel, wann welche Art des Testens besser geeignet ist.**
 
+* Black-Boxes:
+  * Keine innere Struktur bekannt
+  * Testfälle können nur den Analysedokumenten entspringen
+  * Testfälle können nur über Ein- und Ausgaben sprechen
+  * Testfälle entspringen den Anforderung (zu jeder Anforderung Testfälle)
+  * Use-Cases bieten sich an, da ein Use-CaseSzenario in trivialer Weise einen (Funktions-) Test impliziert
+  * Grundidee: Bildung von Äquivalenzklassen
+
+* White-Boxes:
+
 ---
 ## 3. TESTABDECKUNG
 **Gegeben ist die folgende Funktion. Erstellen Sie den Kontrollflussgraphen für diese Funktion.**
