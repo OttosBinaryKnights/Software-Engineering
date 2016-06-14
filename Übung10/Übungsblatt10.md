@@ -51,10 +51,22 @@
 ## 3. TESTABDECKUNG
 **Gegeben ist die folgende Funktion. Erstellen Sie den Kontrollflussgraphen für diese Funktion.**
 
-**Bestimmen Sie mithilfe des Kontrollflussgraphen die:
- a) Zyklomatische Komplexität
- b) Test fälle für die Statement Coverage
- c) Test fälle für die Decision Coverage**
+![ControlFlow](ControlFlow.jpeg)
+![ControlFlow](ControlFlow2.jpg)
+
+**Bestimmen Sie mithilfe des Kontrollflussgraphen die:**
+ * **a) Zyklomatische Komplexität**
+   * #Kanten: 14
+   * #Nodes: 11
+   * #Funktionen: 0
+   * C = #Kanten - #Nodes + 2 * #Funktionen = 3
+ * **b) Testfälle für die Statement Coverage**
+   * Jedes Statement/Knoten wurde einmal besucht.
+   * $C_{0.1}=ggt(-2,-1)$
+ * **c) Testfälle für die Decision Coverage**
+   * Jeder Zweig/Kante wurde einmal besucht.
+   * $C_{1.1}=ggt(-2,-1)$
+   * $C_{1.2}=ggt(1,1)$
 
 ```
 private int ggt(int zahl1, int zahl2) {
