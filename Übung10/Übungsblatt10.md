@@ -2,29 +2,27 @@
 ## 1. TEST-DRIVEN DEVELOPMENT
 **Beschreiben Sie das Vorgehen beim Test-Driven Development.**
 
-<<<<<<< Updated upstream
 * 1. „Überlege“ wünschenswertes Verhalten, das im Moment nicht vorhanden ist.
 * 2. Schreibe einen Testfall der dieses Verhalten erzeugt (und somit auch fehlschlägt).
 * 3. Schreibe Code der den Testfall nicht mehr fehlschlagen lässt.
 * 4. Verbessere den Code durch Refactoring.
-=======
+
 ![Test-Driven Development](TestDrivenDev.jpg)
->>>>>>> Stashed changes
+
 
 **Was Sind die Vor- bzw. Nachteile dieses Entwicklungsprozesses?**
  * Vorteile:
-  * Bessere Fehlererkennung
+   * Bessere Fehlererkennung
 
 * Nachteile:
   * Mehr Aufwand
 
-<<<<<<< Updated upstream
+
 **Wiestehen Siedazu? Begründen Sie Ihre Meinung.**
 * Gutes Verfahren, kann jedoch je nach Größe zu Aufwendig werden.
 
-=======
 **Wie stehen Sie dazu? Begründen Sie Ihre Meinung.**
->>>>>>> Stashed changes
+
 
 ---
 ## 2. BLACK-BOXES UND WHITE-BOXES
