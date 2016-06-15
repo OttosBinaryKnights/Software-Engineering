@@ -18,11 +18,8 @@
   * Mehr Aufwand
 
 
-**Wiestehen Siedazu? Begründen Sie Ihre Meinung.**
-* Gutes Verfahren, kann jedoch je nach Größe zu Aufwendig werden.
-
 **Wie stehen Sie dazu? Begründen Sie Ihre Meinung.**
-
+* Gutes Verfahren, kann jedoch je nach Größe zu Aufwendig werden.
 
 ---
 ## 2. BLACK-BOXES UND WHITE-BOXES
@@ -44,8 +41,6 @@
 
 * White-Box Tests gut um Fehler in den Teilkomponenten aufzudecken und zu lokalisieren (Strukturorientiert)
 * Black-Box Tests gut um Fehler gegenüber der Spezifikation aufzudecken (Funktionsorientiert)
-
-
 
 ---
 ## 3. TESTABDECKUNG
