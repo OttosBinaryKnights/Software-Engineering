@@ -24,3 +24,10 @@
 ---
 ## 5. SOFTWAREMETRIKEN
 **Softwaremetriken und andere statische Analysewerkzeuge können benutzt werden, um den Code auf potenzielle Schwachstellen hin zu überprüfen. Geben Sie jeweils ein Beispiel für eine Größenmetrik, eine Strukturmetrik sowie eine Komplexitätsmetrik. Erläutern Sie, wie sich diese Metrik berechnet und führen Sie die Berechnung an einem selbst gewählten Codebeispiel durch. Welche Vor- bzw. Nachteile hat die jeweilige Metrik? Wie können diese Metriken verfälschtwerden?**
+
+---
+## 6. BUILDSERVER
+**Buildserver sind die logische Konsequenz aus Versionskontrollsystemen. Wozu sind Buildserver gut und was kann
+damit alles automatisiert werden? Finden Sie zwei Vertreter dieser Systeme und vergleichen Sie diese mit dem
+Jenkins/Hudson Buildsystem. Wo liegen die Stärken und Schwächen der jeweiligen Systeme. Welches würden Sie
+aufgrund Ihrer Recherche benutzen?**
