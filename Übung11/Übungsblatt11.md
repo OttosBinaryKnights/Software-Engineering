@@ -4,6 +4,11 @@
 
 | Fehlerkategorie | Beschreibung | Beispiel | Behebung |
 | --------------- | ------------ | -------- | -------- |
+| Compiler Error | Fehler in der Sprache, die den Compiler daran hindern das Programm zu übersetzen| fehlende endklammer, kein simicolon etc. | können automatisiert behoben werden |
+| Laufzeitfehler | treten während der ausführung des Codes auf | durch null teilen | Auftretende Exception untersuchen und dann schrittweises Debugging |
+| Logische Fehler | Programm verhält sich nicht so wie erwartet | Falsches Ergebnis, kein Ergebnis | Debug-Methoden, Programmierer muss verstehen was falsch war |
+
+
 
 ---
 ## 2. VERSION CONTROL SYSTEM
