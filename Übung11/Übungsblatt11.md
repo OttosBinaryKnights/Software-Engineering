@@ -13,8 +13,17 @@
 ---
 ## 2. VERSION CONTROL SYSTEM
 **Erläutern Sie den Begriff Versionskontrollsystem. Gehen Sie dabei auf den Unterschied zwischen zentralen und dezentralen Systemen ein. Wo liegen die jeweiligen Vorteile und Nachteile.**
+* Grundidee: Verwende immer dieselben Dateien und Nutze eine Datenbank, um alle Versionen zu speichern.
+* zentrales System:
+   *
+
+* dezentrales System:
+   * 
+
 
 **Wofür können Versionskontrollsysteme eingesetzt werden und wo nicht.**
+
+
 
 **Welches Versionskontrollsystem würden Sie persönlich einsetzten und warum?**
 
