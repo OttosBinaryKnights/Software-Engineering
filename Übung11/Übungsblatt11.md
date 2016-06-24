@@ -14,18 +14,27 @@
 ## 2. VERSION CONTROL SYSTEM
 **Erläutern Sie den Begriff Versionskontrollsystem. Gehen Sie dabei auf den Unterschied zwischen zentralen und dezentralen Systemen ein. Wo liegen die jeweiligen Vorteile und Nachteile.**
 * Grundidee: Verwende immer dieselben Dateien und Nutze eine Datenbank, um alle Versionen zu speichern.
+* Vorteile:
+  * Dateien heißen immer gleich ->Compile wesentlich einfacher
+  * Alte Versionen können einfach wieder hergestellt werden
+  * Unterschiede können angezeigt werden
+  * Effiziente Frontends und Plugins für praktisch alle größeren IDEs
 * zentrales System:
-   *
+   * ist als Client-Server-System aufgebaut
+   * der Zugriff auf ein Repository kann über Netzwerk erfolgen
 
 * dezentrales System:
-   * 
+   * kein Konflikt bei gleichzeitiger Nutzung einer Datei
+   * kein zentrales Repository
 
 
 **Wofür können Versionskontrollsysteme eingesetzt werden und wo nicht.**
 
-
-
 **Welches Versionskontrollsystem würden Sie persönlich einsetzten und warum?**
+* Kommt auf das Projekt an, z.B.:
+  * Diplomarbeit: lokale/zentrale Versionsverwaltung
+  * Softwareprojekt mit Freunden: dezentrale Versionsverwaltung
+  * Softwareprojekt einer Firma: zentrale Versionsverwaltung
 
 ---
 ## 3. ISSUE TRACKING
@@ -37,7 +46,7 @@
 
 ---
 ## 5. SOFTWAREMETRIKEN
-**Softwaremetriken und andere statische Analysewerkzeuge können benutzt werden, um den Code auf potenzielle Schwachstellen hin zu überprüfen. Geben Sie jeweils ein Beispiel für eine Größenmetrik, eine Strukturmetrik sowie eine Komplexitätsmetrik. Erläutern Sie, wie sich diese Metrik berechnet und führen Sie die Berechnung an einem selbst gewählten Codebeispiel durch. Welche Vor- bzw. Nachteile hat die jeweilige Metrik? Wie können diese Metriken verfälschtwerden?**
+**Softwaremetriken und andere statische Analysewerkzeuge können benutzt werden, um den Code auf potenzielle Schwachstellen hin zu überprüfen. Geben Sie jeweils ein Beispiel für eine Größenmetrik, eine Strukturmetrik sowie eine Komplexitätsmetrik. Erläutern Sie, wie sich diese Metrik berechnet und führen Sie die Berechnung an einem selbst gewählten Codebeispiel durch. Welche Vor- bzw. Nachteile hat die jeweilige Metrik? Wie können diese Metriken verfälscht werden?**
 
 ---
 ## 6. BUILDSERVER
