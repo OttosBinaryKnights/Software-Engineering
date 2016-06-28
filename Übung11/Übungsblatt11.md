@@ -43,9 +43,16 @@
 | System | Beschreibung | Stärken | Schwächen |
 | ------ | ------------ | ------- | --------- |
 | Jira Issue Tracking | | | |
-| | | | |
-| | | | |
+| Bugzilla | | | |
+| ITop | | | |
 
+|   | Jira Issue Tracking | Bugzilla | ITop |
+| --- | ----------------- | -------- | ---- |
+| Basis | Java | Perl | PHP/JavaScript |
+| Kosten | proprietär | freie Software | freie Software |
+| Vorteile | flexible Architektur | Benutzung erfolgt über HTML-Oberfläche | |
+|          | viele Unternehmensbereiche lassen sich abbilden | | |
+|          | für viele Zwecke einsetzbar
 
 ---
 ## 4. LOGGING
@@ -73,7 +80,7 @@ private int ggt(int zahl1, int zahl2) {
 
   if (zahl1 < 0) zahl1 = zahl1 * -1;
   if (zahl2 < 0) zahl2 = zahl2 * -1;
-  
+
   while (zahl2 != 0) {
       if (zahl1 > zahl2) {
           zahl1 = zahl1 - zahl2;
@@ -81,7 +88,7 @@ private int ggt(int zahl1, int zahl2) {
           zahl2 = zahl2 - zahl1;
       }
   }
-  
+
 return zahl1;
 }
 ```
@@ -118,8 +125,8 @@ return zahl1;
 
 
 
-* Strukturmetrik: 
- 
+* Strukturmetrik:
+
 
 
 
@@ -143,4 +150,3 @@ aufgrund Ihrer Recherche benutzen?**
 | Jenkins/Hudson |              |         |           |
 |        |              |         |           |
 |        |              |         |           |
-
