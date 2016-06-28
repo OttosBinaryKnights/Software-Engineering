@@ -40,9 +40,24 @@
 ## 3. ISSUE TRACKING
 **Issue Tracking Systeme helfen bei der Projektkoordination und der Fehlerbehebung. Finden Sie zwei Vertreter dieser Systeme und vergleichen Sie diese mit dem Jira Issue Tracking von Atlassian. Wo liegen die Stärken und Schwächen der jeweiligen Systeme. Welches würden Sie aufgrund Ihrer Recherche benutzen?**
 
+| System | Beschreibung | Stärken | Schwächen |
+| ------ | ------------ | ------- | --------- |
+| Jira Issue Tracking | | | |
+| | | | |
+| | | | |
+
+
 ---
 ## 4. LOGGING
 **Vergleichen Sie zwei selbst gewählte Logging Frameworks mit dem log4j Framework von Apache. Gehen Sie insbesondere auf die Punkte Speicherbedarf, Bedienbarkeit sowie Vor- und Nachteile ein. Worin genau besteht der jeweilige Vorteil der einzelnen Frameworks. Welche Nachteile haben die Frameworks?**
+
+| Framework | Speicherbedarf | Bedienbarkeit | Vorteile | Nachteile |
+| --------- | -------------- | ------------- | -------- | --------- |
+| log4j | | | | |
+| | | | | |
+| | | | | |
+
+
 
 ---
 ## 5. SOFTWAREMETRIKEN
