@@ -83,7 +83,7 @@ return zahl1;
 
 * Metrik verfälschbar durch falsches Zählen bzw. durch falsche Wahl der Zählweise
 
-* Strukturmetrik: McCabe Cyclomatic Cyclomatic Complexity
+* Komplexitätsmetrik: McCabe Cyclomatic Cyclomatic Complexity (Hab ich auch unter Strukturmetrik gefunden)
   * basiert auf dem Kontrollflussgraphen
   * berechnet sich mit V(g) = Kanten - Knoten + 2
   * Fehler-Risiko:
@@ -103,7 +103,7 @@ return zahl1;
 
 
 
-* Komplexitätsmetrik:
+* Strukturmetrik:
  
 
 
