@@ -103,7 +103,7 @@ return zahl1;
 
 
 
-* Strukturmetrik:
+* Strukturmetrik: 
  
 
 
@@ -118,3 +118,14 @@ return zahl1;
 damit alles automatisiert werden? Finden Sie zwei Vertreter dieser Systeme und vergleichen Sie diese mit dem
 Jenkins/Hudson Buildsystem. Wo liegen die Stärken und Schwächen der jeweiligen Systeme. Welches würden Sie
 aufgrund Ihrer Recherche benutzen?**
+
+* Buildserver sind eine zentralisierte,stabile und zuverlässige Umgebung für Programmbuilds
+
+
+
+| System | Beschreibung | Stärken | Schwächen |
+| ------ | ------------ | ------- | --------- |
+| Jenkins/Hudson |              |         |           |
+|        |              |         |           |
+|        |              |         |           |
+
