@@ -83,7 +83,26 @@ return zahl1;
 
 * Metrik verfälschbar durch falsches Zählen bzw. durch falsche Wahl der Zählweise
 
-* Strukturmetrik:
+* Strukturmetrik: McCabe Cyclomatic Cyclomatic Complexity
+  * basiert auf dem Kontrollflussgraphen
+  * berechnet sich mit V(g) = Kanten - Knoten + 2
+  * Fehler-Risiko:
+   * V(g) > 10 : mittel
+   * V(g) > 20 : hoch
+   * V(g) > 50 : unbeherrschbar
+
+![ControlFlow](/Software-Engineering/Übung10/ControlFlow2.jpg)
+* V(g)= 14 - 11 + 2 = 5
+
+* Vorteil:
+  * Einfach zu berechnen
+  * Ablaufkomplexität wird gemessen
+* Nachteil:
+  * Komplexität von Anweisungen bleibt unberücksichtigt
+
+
+
+
 * Komplexitätsmetrik:
  
 
