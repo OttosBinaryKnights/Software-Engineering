@@ -48,6 +48,51 @@
 ## 5. SOFTWAREMETRIKEN
 **Softwaremetriken und andere statische Analysewerkzeuge können benutzt werden, um den Code auf potenzielle Schwachstellen hin zu überprüfen. Geben Sie jeweils ein Beispiel für eine Größenmetrik, eine Strukturmetrik sowie eine Komplexitätsmetrik. Erläutern Sie, wie sich diese Metrik berechnet und führen Sie die Berechnung an einem selbst gewählten Codebeispiel durch. Welche Vor- bzw. Nachteile hat die jeweilige Metrik? Wie können diese Metriken verfälscht werden?**
 
+* Größenmetrik: Lines of Code (LOC)
+  * Zeilen des Codes werden gezählt
+  * verschiedene Varianten möglich
+  * Alle Zeilen, ausführbarer Code, nur Kommentare, zeilen mit simicolon
+
+```
+private int ggt(int zahl1, int zahl2) {
+
+  if (zahl1 < 0) zahl1 = zahl1 * -1;
+  if (zahl2 < 0) zahl2 = zahl2 * -1;
+  
+  while (zahl2 != 0) {
+      if (zahl1 > zahl2) {
+          zahl1 = zahl1 - zahl2;
+      } else {
+          zahl2 = zahl2 - zahl1;
+      }
+  }
+  
+return zahl1;
+}
+```
+* Alle Zeilen: 15
+* ausführbarer Code: 12
+* nur Kommentare: 0
+* Zeilen mit Simicolon: 5
+
+* Vorteile:
+  * man erfährt die insgesammte Produktivität
+* Nachteile:
+  * Nicht immer klar was genau gezählt werden muss
+  * erlaubt keine direkten Aussagen über die Effizienz der Programmierer
+
+* Metrik verfälschbar durch falsches Zählen bzw. durch falsche Wahl der Zählweise
+
+* Strukturmetrik:
+* Komplexitätsmetrik:
+ 
+
+
+
+
+
+
+
 ---
 ## 6. BUILDSERVER
 **Buildserver sind die logische Konsequenz aus Versionskontrollsystemen. Wozu sind Buildserver gut und was kann
