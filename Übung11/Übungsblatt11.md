@@ -91,7 +91,7 @@ return zahl1;
    * V(g) > 20 : hoch
    * V(g) > 50 : unbeherrschbar
 
-![ControlFlow](/Software-Engineering/Übung10/ControlFlow2.jpg)
+![ControlFlow](/Übung10/ControlFlow2.jpg)
 * V(g)= 14 - 11 + 2 = 5
 
 * Vorteil:
