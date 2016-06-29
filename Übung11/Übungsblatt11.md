@@ -65,6 +65,8 @@
 | | | | | |
 | | | | | |
 
+![Lösung](IMG_0999.jpg)
+![Lösung](IMG_1001.jpg)
 
 
 ---
@@ -133,7 +135,7 @@ return zahl1;
 * Anzahl Knoten: 11
 * Anzahl der Kanten: 14
 * Maximale Tiefe: 6
- 
+
 * Vorteil: leicht zu berechnen
 * Nachteil: nicht wirklich aussagekräftig
 
