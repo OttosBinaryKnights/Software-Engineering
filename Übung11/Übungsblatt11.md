@@ -126,10 +126,16 @@ return zahl1;
 
 
 
-* Strukturmetrik:
+* Strukturmetrik: Eigenschaften des Kontrollflussgraphen
+  * Anzahl Knoten, Anzahl Kanten, Maximale Tiefe
 
-
-
+![ControlFlow](/Übung10/ControlFlow2.jpg)
+* Anzahl Knoten: 11
+* Anzahl der Kanten: 14
+* Maximale Tiefe: 6
+ 
+* Vorteil: leicht zu berechnen
+* Nachteil: nicht wirklich aussagekräftig
 
 
 
