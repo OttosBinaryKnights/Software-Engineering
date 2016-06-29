@@ -59,15 +59,11 @@
 ## 4. LOGGING
 **Vergleichen Sie zwei selbst gewählte Logging Frameworks mit dem log4j Framework von Apache. Gehen Sie insbesondere auf die Punkte Speicherbedarf, Bedienbarkeit sowie Vor- und Nachteile ein. Worin genau besteht der jeweilige Vorteil der einzelnen Frameworks. Welche Nachteile haben die Frameworks?**
 
-| Framework | Speicherbedarf | Bedienbarkeit | Vorteile | Nachteile |
-| --------- | -------------- | ------------- | -------- | --------- |
-| log4j | | | | |
-| | | | | |
-| | | | | |
-
-![Lösung](IMG_0999.jpg)
-![Lösung](IMG_1001.jpg)
-
+| Logging Framework | Log4J | TinyLog | Logback |
+| ----------------- | ----- | ------- | ------- |
+| Log levels(FATAL ERROR WARN INFO DEBUG TRACE) | alle | ERROR WARNING INFO DEBUG TRACE | ERROR WARNING INFO DEBUG TRACE |
+| Vorteile | Konfigurierbar, Support, Optimierung | Bedienfreundlich, Konfigurierbar, schnell, multi-thread möglich, kleine Größe, Open Source | Nachfolger von Log4J, konfigurier- und erweiterbar, mehr Tests, 10x schneller wie Log4J, Doku |
+| Nchteile | ? | kein FATAL Log | kein FATAL Log, Messages gehen beim konfigurieren verloren |
 
 ---
 ## 5. SOFTWAREMETRIKEN
