@@ -148,6 +148,13 @@ aufgrund Ihrer Recherche benutzen?**
 
 | System | Beschreibung | Stärken | Schwächen |
 | ------ | ------------ | ------- | --------- |
-| Jenkins/Hudson |              |         |           |
-|        |              |         |           |
-|        |              |         |           |
+| Jenkins/Hudson | in Java geschrieben und läuft in beliebigen Java Servlet-Containern |  verfügt über eine REST-basierte Programmierschnittstelle zur Steuerung durch andere Programme | |
+| | | wird mit minimalen Servlet-Middleware Winstone ausgeliefert, sofort auf Application servern lauffähig | |
+| | | unterstützt verschiedene Build-Tools und automatische Testverfahren | |
+| Bamboo | in java geschrieben | kommunikation mit server erfolgt über weboberfläche, dort kann man die builds konfigurieren | |
+| | enthält alle Grundfunktionen eines Buildservers | erstellen von deployment-vorgängen möglich | |
+| | | est ist möglich daten von Jenkins oder anderen Buildservern zu importieren | |
+| | | integration mit jira möglich | |
+| Apache Continuum | geschrieben in java | unterstütz versionsverwaltungssysteme | |
+| | beinhaltet alle Grundfunktionen eines Buildservers | unterstützt verteilte und parallele builds | |
+| | | Push-Builds sind möglich | |
