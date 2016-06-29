@@ -50,9 +50,10 @@
 | --- | ----------------- | -------- | ---- |
 | Basis | Java | Perl | PHP/JavaScript |
 | Kosten | proprietär | freie Software | freie Software |
-| Vorteile | flexible Architektur | Benutzung erfolgt über HTML-Oberfläche | |
-|          | viele Unternehmensbereiche lassen sich abbilden | | |
-|          | für viele Zwecke einsetzbar
+| Vorteile | flexible Architektur | Benutzung erfolgt über HTML-Oberfläche | es ist kostenlos |
+|          | viele Unternehmensbereiche lassen sich abbilden | es ist kostenlos | beinhaltet eine Configuration Management Database |
+|          | für viele Zwecke einsetzbar | auf jedem System lauffähig | sehr weitgehend an eigene Anforderungen anpassbar |
+| Nachteile | nicht alle Funktionen einer spezialisierten Anwendung können in Jira 1:1 umgesetzt werden | unterstützt keinen Service-level agreement | |
 
 ---
 ## 4. LOGGING
