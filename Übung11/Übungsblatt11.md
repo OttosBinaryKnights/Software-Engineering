@@ -8,8 +8,6 @@
 | Laufzeitfehler | treten während der ausführung des Codes auf | durch null teilen | Auftretende Exception untersuchen und dann schrittweises Debugging |
 | Logische Fehler | Programm verhält sich nicht so wie erwartet | Falsches Ergebnis, kein Ergebnis | Debug-Methoden, Programmierer muss verstehen was falsch war |
 
-
-
 ---
 ## 2. VERSION CONTROL SYSTEM
 **Erläutern Sie den Begriff Versionskontrollsystem. Gehen Sie dabei auf den Unterschied zwischen zentralen und dezentralen Systemen ein. Wo liegen die jeweiligen Vorteile und Nachteile.**
@@ -135,10 +133,6 @@ return zahl1;
 * Vorteil: leicht zu berechnen
 * Nachteil: nicht wirklich aussagekräftig
 
-
-
-
-
 ---
 ## 6. BUILDSERVER
 **Buildserver sind die logische Konsequenz aus Versionskontrollsystemen. Wozu sind Buildserver gut und was kann
@@ -147,8 +141,6 @@ Jenkins/Hudson Buildsystem. Wo liegen die Stärken und Schwächen der jeweiligen
 aufgrund Ihrer Recherche benutzen?**
 
 * Buildserver sind eine zentralisierte,stabile und zuverlässige Umgebung für Programmbuilds
-
-
 
 | System | Beschreibung | Stärken | Schwächen |
 | ------ | ------------ | ------- | --------- |
